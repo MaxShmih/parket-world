@@ -1,6 +1,6 @@
 {%- liquid
   assign heading_size = block.settings.heading_size | default: 'h4'
-  assign use_specs_metafield = block.settings.use_specifications_metafield
+  assign use_specs_setting = block.settings.use_specifications_metafield
   assign specs_mf = product.metafields.custom.specifications_text
   assign specs_raw = ''
 
@@ -12,6 +12,15 @@
 
   assign specs_raw = specs_raw | strip
   assign show_specs_table = false
+  assign use_specs_metafield = false
+
+  if use_specs_setting == true
+    assign use_specs_metafield = true
+  elsif use_specs_setting == false
+    assign use_specs_metafield = false
+  elsif block.settings.heading == 'Характеристики'
+    assign use_specs_metafield = true
+  endif
 
   if use_specs_metafield and specs_raw != blank
     assign show_specs_table = true
