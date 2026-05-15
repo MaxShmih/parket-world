@@ -771,6 +771,34 @@ product-info.use-color-scheme-in-container > .product {
     gap: 1.2rem;
   }
 }
+.product-specifications__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.product-specifications__table tr + tr {
+  border-top: 1px solid rgba(var(--color-border), var(--color-border-alpha, 1));
+}
+.product-specifications__label,
+.product-specifications__value {
+  padding: 1.2rem 0;
+  vertical-align: top;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.product-specifications__label {
+  width: 50%;
+  padding-inline-end: 1.6rem;
+  text-align: start;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: rgb(var(--color-subtext));
+}
+.product-specifications__value {
+  width: 50%;
+  text-align: end;
+  color: rgb(var(--color-foreground));
+}
+
 @media screen and (forced-colors: active) {
   .product-form__submit[aria-disabled=true] {
     color: Window;

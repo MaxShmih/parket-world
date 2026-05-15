@@ -1,5 +1,12 @@
 {%- liquid
   assign heading_size = block.settings.heading_size | default: 'h4'
+  assign use_specs_metafield = block.settings.use_specifications_metafield
+  assign specs_raw = product.metafields.custom.specifications_text.value
+  assign show_specs_table = false
+
+  if use_specs_metafield and specs_raw != blank
+    assign show_specs_table = true
+  endif
 -%}
 <details
   id="Details-{{ block.id }}-{{ section_id }}"
@@ -21,8 +28,12 @@
     </div>
     {%- render 'icon-plus-toggle' -%}
   </summary>
-  <div class="accordion-details__content rte text-subtext">
-    {{ block.settings.content }}
-    {{ block.settings.page.content }}
+  <div class="accordion-details__content text-subtext{% unless show_specs_table %} rte{% endunless %}">
+    {%- if show_specs_table -%}
+      {% render 'product-specifications-table', specs_raw: specs_raw %}
+    {%- else -%}
+      {{ block.settings.content }}
+      {{ block.settings.page.content }}
+    {%- endif -%}
   </div>
 </details>

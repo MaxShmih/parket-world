@@ -149,7 +149,8 @@
             "heading_size": "h4",
             "icon": "none",
             "content": "",
-            "page": "content",
+            "page": "",
+            "use_specifications_metafield": true,
             "default_open": true,
             "show_below_product_media": true
           }

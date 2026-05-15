@@ -261,7 +261,7 @@
           </div>
         {%- when 'collapsible_tab' -%}
           <div class="{{ block_classes }}" {{ additional_attributes }} {{ block.shopify_attributes }}>
-            {%- render 'product-collapsible-tab', block: block, section_id: section.id -%}
+            {%- render 'product-collapsible-tab', block: block, section_id: section.id, product: product -%}
           </div>
         {%- when 'popup' -%}
           {%- liquid
