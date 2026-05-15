@@ -70,8 +70,8 @@
         "apply_error_message": "Цей промокод не можна застосувати до кошика."
       },
       "free_shipping": {
-        "remaining_html": "Spend {{ remaining_amount }} more to reach free shipping!",
-        "congratulations_html": "You are eligible for free shipping."
+        "remaining_html": "Додайте товарів на {{ remaining_amount }}, щоб отримати безкоштовну доставку!",
+        "congratulations_html": "Ви маєте право на безкоштовну доставку."
       },
       "shipping_calculator": {
         "title": "Розрахунок доставки",
@@ -82,12 +82,12 @@
         "multiple_results": "Для вашої адреси є кілька тарифів доставки:"
       },
       "cart_count": {
-        "one": "{{ count }} item",
-        "other": "{{ count }} items"
+        "one": "{{ count }} товар",
+        "other": "{{ count }} товарів"
       },
       "gift_wrapping": {
-        "message_html": "For {{ price }}, please wrap the products in this order.",
-        "note_placeholder": "Gift message (free and optional)"
+        "message_html": "За {{ price }} ми подарунково упакуємо товари в цьому замовленні.",
+        "note_placeholder": "Подарункове повідомлення (безкоштовно, за бажанням)"
       }
     },
     "slider": {
@@ -95,11 +95,11 @@
       "previous_slide": "Попередній слайд"
     },
     "meta": {
-      "tags": "Tagged \"{{ tags }}\"",
-      "page": "Page {{ page }}"
+      "tags": "Мітки: «{{ tags }}»",
+      "page": "Сторінка {{ page }}"
     },
     "payment": {
-      "methods": "Payment methods"
+      "methods": "Способи оплати"
     }
   },
   "newsletter": {
@@ -119,14 +119,14 @@
     "error": "Помилка",
     "refresh_page": "Вибір варіанту оновлює сторінку.",
     "link_messages": {
-      "new_window": "Opens in a new window."
+      "new_window": "Відкривається в новому вікні."
     },
     "complementary_products": "Додаткові товари",
     "menu_drawer": "Перемкнути меню",
     "layout_switcher": {
-      "view_as": "View as",
-      "list": "View as list",
-      "grid": "View as grid"
+      "view_as": "Перегляд:",
+      "list": "Списком",
+      "grid": "Сіткою"
     },
     "view_more": "Показати більше",
     "view_less": "Показати менше",
@@ -139,8 +139,8 @@
   "blogs": {
     "article": {
       "comments": {
-        "one": "{{ count }} Comment",
-        "other": "{{ count }} Comments"
+        "one": "{{ count }} коментар",
+        "other": "{{ count }} коментарів"
       },
       "moderated": "Зверніть увагу, коментарі мають бути схвалені, перш ніж їх буде опубліковано.",
       "comment_form_title": "Залишити коментар",
@@ -158,14 +158,14 @@
     }
   },
   "onboarding": {
-    "article_title": "Blog post",
-    "article_date": "May 27, 2024",
-    "article_content": "Give your customers a summary of your blog post",
-    "product_title": "Example product title",
-    "product_description": "This area is used to describe your product’s details. Tell customers about the look, feel, and style of your product. Add details on color, materials used, sizing, and where it was made.",
-    "collection_title": "Collection's name",
-    "collection_description": "Collection's description here that provides details about the collection.",
-    "no_script_alert": "Please enable Javascript to use this feature."
+    "article_title": "Запис у блозі",
+    "article_date": "27 травня 2024",
+    "article_content": "Короткий опис запису для ваших клієнтів",
+    "product_title": "Приклад назви товару",
+    "product_description": "Опишіть товар: зовнішній вигляд, матеріали, розміри та особливості.",
+    "collection_title": "Назва колекції",
+    "collection_description": "Опис колекції з деталями для покупців.",
+    "no_script_alert": "Увімкніть JavaScript, щоб користуватися цією функцією."
   },
   "products": {
     "product": {
@@ -306,8 +306,8 @@
   },
   "templates": {
     "404": {
-      "title": "404 Page not found",
-      "subtext": "The page you requested does not exist."
+      "title": "404 — сторінку не знайдено",
+      "subtext": "Запитаної сторінки не існує."
     },
     "collections": {
       "title": "Колекції"
@@ -317,12 +317,12 @@
       "no_results_message": "Перевірте орфографію або використайте інше слово чи фразу.",
       "products": "Пов’язані товари",
       "results_with_count": {
-        "one": "{{ count }} result",
-        "other": "{{ count }} results"
+        "one": "{{ count }} результат",
+        "other": "{{ count }} результатів"
       },
       "results_with_count_and_term": {
-        "one": "{{ count }} result found for “{{ terms }}”",
-        "other": "{{ count }} results found for “{{ terms }}”"
+        "one": "Знайдено {{ count }} результат для «{{ terms }}»",
+        "other": "Знайдено {{ count }} результатів для «{{ terms }}»"
       },
       "title": "Результати пошуку",
       "search_for": "Усі результати для «{{ terms }}»",
@@ -437,10 +437,10 @@
   },
   "customer": {
     "account": {
-      "title": "Account",
-      "details": "Account details",
-      "view_addresses": "View addresses",
-      "return": "Return to Account details"
+      "title": "Обліковий запис",
+      "details": "Дані облікового запису",
+      "view_addresses": "Переглянути адреси",
+      "return": "Повернутися до облікового запису"
     },
     "account_fallback": "Обліковий запис",
     "activate_account": {
@@ -545,16 +545,16 @@
   },
   "gift_cards": {
     "issued": {
-      "how_to_use_gift_card": "Use the gift card code online or QR code in-store",
-      "title": "Here's your {{ value }} gift card for {{ shop }}!",
-      "subtext": "Your gift card",
-      "shop_link": "Visit online store",
-      "add_to_apple_wallet": "Add to Apple Wallet",
-      "qr_image_alt": "QR code — scan to redeem gift card",
-      "copy_code": "Copy gift card code",
-      "expired": "Expired",
-      "copy_code_success": "Code copied successfully",
-      "expiration_date": "Expires {{ expires_on }}"
+      "how_to_use_gift_card": "Використайте код подарункової картки онлайн або QR у магазині",
+      "title": "Ваша подарункова картка на {{ value }} для {{ shop }}!",
+      "subtext": "Ваша подарункова картка",
+      "shop_link": "Перейти в інтернет-магазин",
+      "add_to_apple_wallet": "Додати в Apple Wallet",
+      "qr_image_alt": "QR-код — відскануйте для активації",
+      "copy_code": "Скопіювати код картки",
+      "expired": "Протерміновано",
+      "copy_code_success": "Код скопійовано",
+      "expiration_date": "Дійсна до {{ expires_on }}"
     }
   },
   "recipient": {

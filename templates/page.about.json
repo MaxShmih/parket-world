@@ -271,7 +271,7 @@
         "column_ikYHeg": {
           "type": "column",
           "settings": {
-            "title": "All eco-certified",
+            "title": "Еко-сертифіковано",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
@@ -288,7 +288,7 @@
         "column_bTbVtm": {
           "type": "column",
           "settings": {
-            "title": "Sustainability",
+            "title": "Сталість",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
@@ -348,7 +348,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "none",
-            "heading": "Testimonials",
+            "heading": "Відгуки",
             "text": "<p>“We are different. We believe in transparency and recognised external certification.”</p>",
             "author": "Jenny Wilson",
             "bio": "CEO Garace"
@@ -487,7 +487,7 @@
         "heading_BjfQbV": {
           "type": "heading",
           "settings": {
-            "heading": "Inspired to create a chair where the back",
+            "heading": "Професійний підбір покриття",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
@@ -498,7 +498,7 @@
         "text_6eMjft": {
           "type": "text",
           "settings": {
-            "text": "<p>Made entirely of oak, the Bow Chair is comfortable, visually pleasing and brimming with character.  The moulded plywood seat is unusually wide in proportion to its depth and a waterfall edge at the front softens contact with the hamstrings. </p>",
+            "text": "<p>Допоможемо обрати покриття під ваш стиль, навантаження та бюджет.</p>",
             "subtext_color": true
           }
         },
@@ -790,7 +790,7 @@
           "type": "text",
           "settings": {
             "text_link": "",
-            "text": "Fast Delivery",
+            "text": "Швидка доставка",
             "text_size": "h4",
             "text_opacity": 100,
             "use_custom_color": false,
@@ -801,7 +801,7 @@
           "type": "text",
           "settings": {
             "text_link": "",
-            "text": "30 Days Free Returns",
+            "text": "30 днів безкоштовного повернення",
             "text_size": "h4",
             "text_opacity": 100,
             "use_custom_color": false,
@@ -812,7 +812,7 @@
           "type": "text",
           "settings": {
             "text_link": "",
-            "text": "Secure Payment",
+            "text": "Безпечна оплата",
             "text_size": "h4",
             "text_opacity": 100,
             "use_custom_color": false,
@@ -823,7 +823,7 @@
           "type": "text",
           "settings": {
             "text_link": "",
-            "text": "24/7 Customer Support",
+            "text": "Підтримка 24/7",
             "text_size": "h4",
             "text_opacity": 100,
             "use_custom_color": false,
@@ -834,7 +834,7 @@
           "type": "text",
           "settings": {
             "text_link": "",
-            "text": "Sustainable Materials",
+            "text": "Екологічні матеріали",
             "text_size": "h4",
             "text_opacity": 100,
             "use_custom_color": false,

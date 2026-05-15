@@ -50,11 +50,11 @@
             "title_font": "body-bolder",
             "title_size": "text-base",
             "icon_1": "check",
-            "heading_1": "Modern",
+            "heading_1": "Сучасний дизайн",
             "icon_2": "check",
-            "heading_2": "Eco-certified",
+            "heading_2": "Еко-сертифікація",
             "icon_3": "check",
-            "heading_3": "Warranty"
+            "heading_3": "Гарантія"
           }
         },
         "inventory": {
@@ -77,7 +77,7 @@
             "swatch_style": "square",
             "swatch_size": 32,
             "button_style": "normal",
-            "size_title": "Size",
+            "size_title": "Розмір",
             "size_chart_from_page": ""
           }
         },
@@ -96,9 +96,9 @@
             "title_font": "body",
             "title_size": "text-base",
             "icon_1": "car-simple",
-            "heading_1": "Free International Shipping over $500",
+            "heading_1": "Безкоштовна доставка від 500 $",
             "icon_2": "arrow-up-left",
-            "heading_2": "Free Returns Within 30 days",
+            "heading_2": "Безкоштовне повернення протягом 30 днів",
             "icon_3": "star-four",
             "heading_3": ""
           }
@@ -112,14 +112,14 @@
           "settings": {
             "text_color": "#049b6e",
             "icon": "lightning",
-            "heading": "Limited time offer",
-            "description": "<p>Get $20 off when you spend $1,000 or more! <a href=\"/collections/all\" title=\"All products\">Shop now</a></p>"
+            "heading": "Обмежена пропозиція",
+            "description": "<p>Знижка 20 $ при замовленні від 1 000 $! <a href=\"/collections/all\" title=\"Усі товари\">Купити зараз</a></p>"
           }
         },
         "complementary": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Perfect Match With",
+            "block_heading": "Ідеально поєднується з",
             "heading_size": "h4",
             "show_below_product_media": false,
             "make_collapsible_row": false,
@@ -134,7 +134,7 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Specifications",
+            "heading": "Характеристики",
             "heading_size": "h4",
             "icon": "none",
             "content": "",
@@ -146,10 +146,10 @@
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Product Details",
+            "heading": "Деталі товару",
             "heading_size": "h4",
             "icon": "none",
-            "content": "<p>Designed with care and crafted from premium materials, our products combine durability, comfort, and timeless style. Each piece is thoughtfully made to enhance your living space, offering a perfect balance of functionality and elegance that complements any home and suits your unique lifestyle.</p>",
+            "content": "<p>Якісні матеріали, стійкість до навантажень і сучасний вигляд — наша підлога створена для комфорту щодня. Підходить для житлових і комерційних приміщень, легко поєднується з різними стилями інтер’єру.</p>",
             "page": "",
             "default_open": false,
             "show_below_product_media": true
@@ -158,10 +158,10 @@
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials & Care",
+            "heading": "Матеріали та догляд",
             "heading_size": "h4",
             "icon": "none",
-            "content": "<p>Carefully crafted from durable, sustainable materials, each piece is designed for long-lasting use and timeless style. For proper care, wipe gently with a soft, damp cloth to remove dust and dirt. Avoid using harsh chemicals, abrasive cleaners, or excessive moisture to protect the finish and maintain its pristine look.</p>",
+            "content": "<p>Для догляду використовуйте м’яку вологу ганчірку без агресивних засобів. Не залишайте стоячу воду та уникайте абразивів — так покриття довше зберігатиме вигляд і властивості.</p>",
             "page": "",
             "default_open": false,
             "show_below_product_media": true
@@ -171,13 +171,13 @@
           "type": "payment_info",
           "settings": {
             "color_scheme": "scheme-info",
-            "heading": "Payment & Security",
+            "heading": "Оплата та безпека",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
             "heading_size": "h5",
-            "description": "<p>Your payment information is processed securely. We do not store credit card details nor have access to your credit card information.</p>",
+            "description": "<p>Ваші платіжні дані обробляються безпечно. Ми не зберігаємо дані банківських карток і не маємо до них доступу.</p>",
             "show_payment_icons": true,
             "show_below_product_media": true
           }
@@ -249,37 +249,37 @@
         "testimonial_7DLpFK": {
           "type": "testimonial",
           "settings": {
-            "heading": "Testimonials",
-            "text": "<p>“I am extremely happy about both design and comfort. I am a furniture designer myself, and your product makes me happy.”</p>",
+            "heading": "Відгуки",
+            "text": "<p>«Дуже задоволений якістю та зовнішнім виглядом. Рекомендую!»</p>",
             "author": "Stephanie L.",
-            "bio": "Verified Buyer"
+            "bio": "Підтверджений покупець"
           }
         },
         "testimonial_aQ7ype": {
           "type": "testimonial",
           "settings": {
-            "heading": "Testimonials",
-            "text": "<p>The story behind, sustainable production, and the risk-free feeling with the free return policy make this a great choice.</p>",
+            "heading": "Відгуки",
+            "text": "<p>Якісне покриття, відповідальне виробництво та зручна політика повернення — чудовий вибір.</p>",
             "author": "Rachel M.",
-            "bio": "Verified Buyer"
+            "bio": "Підтверджений покупець"
           }
         },
         "testimonial_rCTbLa": {
           "type": "testimonial",
           "settings": {
-            "heading": "Testimonials",
-            "text": "<p>“High-quality furniture, crafted with passion and care, fantastic in appearance and use, reasonably priced, and excellent custome.”</p>",
+            "heading": "Відгуки",
+            "text": "<p>«Відмінна підлога за адекватною ціною. Монтаж пройшов без проблем, сервіс на висоті.»</p>",
             "author": "Emily J.",
-            "bio": "Verified Buyer"
+            "bio": "Підтверджений покупець"
           }
         },
         "testimonial_pqq4fH": {
           "type": "testimonial",
           "settings": {
-            "heading": "Testimonials",
-            "text": "<p>The craftsmanship, eco-friendly materials, and excellent customer service truly make this product an outstanding standout.</p>",
+            "heading": "Відгуки",
+            "text": "<p>Якісні матеріали, еко-підхід і уважний сервіс — саме те, що потрібно для дому.</p>",
             "author": "Sarah T.",
-            "bio": "Verified Buyer"
+            "bio": "Підтверджений покупець"
           }
         }
       },
@@ -295,7 +295,7 @@
         "section_header_alignment": "left",
         "section_header_alignment_mobile": "inherit",
         "subheading": "",
-        "heading": "Clients Love Us",
+        "heading": "Клієнти нам довіряють",
         "highlight_style": "none",
         "highlight_font_style": "italic",
         "highlight_style_color": "",
@@ -332,17 +332,17 @@
         "image_with_text_iLTdLe": {
           "type": "image_with_text",
           "settings": {
-            "navigation_title": "Specifications",
+            "navigation_title": "Характеристики",
             "desktop_image_position": "left",
             "image_aspect_ratio": "adapt",
-            "heading": "Inspired to create a chair where the back and arms are moulded from a single piece of plywood",
+            "heading": "Детальна інформація про покриття та монтаж",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
             "heading_size": "h3",
             "subheading": "",
-            "description": "<p>Inspired to create a chair where the back and arms are moulded from a single piece of plywood, Hecht and Colin describe employing a process similar to that a tailor might use to cut a pattern in fabric. This approach resulted in the beautiful structure wherein the moulded back and arms component is supported by a simple A-frame wood dowel construction. One of the benefits of this design is an increase in comfort due to natural movement in the plywood back.</p>",
+            "description": "<p>У розділі зібрано технічні характеристики, рекомендації щодо підготовки основи та монтажу. Дотримуйтесь інструкції виробника — це гарантує стабільний результат і збереження гарантії.</p>",
             "description_size": "text-base",
             "button_label": "",
             "button_link": "",
@@ -353,19 +353,19 @@
         "image_with_text_LQUEir": {
           "type": "image_with_text",
           "settings": {
-            "navigation_title": "About Brand",
+            "navigation_title": "Про бренд",
             "desktop_image_position": "left",
             "image_aspect_ratio": "adapt",
-            "heading": "Danish Design With Global Outlook",
+            "heading": "Якість та сервіс Світ Паркету",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
             "heading_size": "h3",
             "subheading": "",
-            "description": "<p>The good design concepts at the heart of Danish design are functionality, beauty and the needs of the many. This is a strong tradition. And when a tradition is strong enough, it leaves room for innovation that allows us to always move forward.</p>",
+            "description": "<p>Ми працюємо з перевіреними брендами підлогових покриттів, допомагаємо з підбором, розрахунком кількості та консультацією щодо укладання.</p>",
             "description_size": "text-base",
-            "button_label": "Shop More Products",
+            "button_label": "Переглянути каталог",
             "button_style": "btn--primary",
             "button_icon": "none"
           }
@@ -373,7 +373,7 @@
         "tab_xGBJeM": {
           "type": "tab",
           "settings": {
-            "navigation_title": "Shipping & Return",
+            "navigation_title": "Доставка та повернення",
             "content": "",
             "custom_liquid": "",
             "page": "shipping-return"
@@ -405,13 +405,13 @@
         "column_LRyY3U": {
           "type": "column",
           "settings": {
-            "title": "Make it yours",
+            "title": "Зробіть на свій смак",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
             "heading_size": "h4",
-            "text": "<p>Personalize your furniture to match your unique style, with customizable options for colors, finishes, materials, and fabrics.</p>",
+            "text": "<p>Широкий вибір декорів, фактур і форматів панелей — підберіть рішення під ваш інтер’єр.</p>",
             "text_size": "text-base",
             "button_label": "",
             "button_link": "",
@@ -422,13 +422,13 @@
         "column_xk99X3": {
           "type": "column",
           "settings": {
-            "title": "Climate footprint",
+            "title": "Екологічний слід",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
             "heading_size": "h4",
-            "text": "<p>Discover the eco-impact with insights into our materials, production processes, and commitment to sustainable practices.</p>",
+            "text": "<p>Екологічні сертифікати та відповідальне виробництво — важливі критерії при виборі покриття.</p>",
             "text_size": "text-base",
             "button_label": "",
             "button_link": "",
@@ -439,13 +439,13 @@
         "column_dywNM6": {
           "type": "column",
           "settings": {
-            "title": "Sustainability",
+            "title": "Сталість",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
             "heading_size": "h4",
-            "text": "<p>Learn how our furniture supports a greener future through responsible sourcing and eco-friendly manufacturing practices.</p>",
+            "text": "<p>Ми пропонуємо рішення зі сталих матеріалів для дому та бізнесу.</p>",
             "text_size": "text-base",
             "button_label": "",
             "button_link": "",
@@ -456,13 +456,13 @@
         "column_rjxaqy": {
           "type": "column",
           "settings": {
-            "title": "All eco-certified",
+            "title": "Еко-сертифіковано",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
             "heading_size": "h4",
-            "text": "<p>Rest assured knowing every piece is crafted with care, meeting rigorous eco-certification standards for sustainability.</p>",
+            "text": "<p>Уся продукція відповідає вимогам безпеки та якості для житлового використання.</p>",
             "text_size": "text-base",
             "button_label": "",
             "button_link": "",
@@ -483,7 +483,7 @@
         "section_header_alignment": "center",
         "section_header_alignment_mobile": "inherit",
         "subheading": "",
-        "heading": "Take A Closer Look",
+        "heading": "Подивіться детальніше",
         "highlight_style": "none",
         "highlight_font_style": "italic",
         "highlight_style_color": "",
@@ -515,8 +515,8 @@
         "hotspot_YNA8gT": {
           "type": "hotspot",
           "settings": {
-            "heading": "Timeless Design",
-            "description": "<p>Blending comfort and style, perfect for elevating any living space.</p>",
+            "heading": "Безчасний дизайн",
+            "description": "<p>Надійне покриття для комфорту щодня.</p>",
             "top": 39,
             "left": 26,
             "top_mobile": 45,
@@ -527,7 +527,7 @@
           "type": "hotspot",
           "settings": {
             "heading": "Organic Cotton",
-            "description": "<p>Sustainably sourced for a soft, breathable, and eco-friendly lounging experience.</p>",
+            "description": "<p>Екологічні матеріали та комфорт у щоденному використанні.</p>",
             "top": 65,
             "left": 63,
             "top_mobile": 50,
@@ -538,7 +538,7 @@
           "type": "hotspot",
           "settings": {
             "heading": "Built to Last",
-            "description": "<p>Premium materials and expert craftsmanship ensure durability and long-lasting support.</p>",
+            "description": "<p>Міцність і довговічність завдяки якісним матеріалам.</p>",
             "top": 82,
             "left": 47,
             "top_mobile": 62,
@@ -651,7 +651,7 @@
         "heading_htkz9R": {
           "type": "heading",
           "settings": {
-            "heading": "Inspired to create a chair where the back",
+            "heading": "Професійний підбір покриття",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
@@ -662,7 +662,7 @@
         "text_YmfE4R": {
           "type": "text",
           "settings": {
-            "text": "<p>Made entirely of oak, the Bow Chair is comfortable, visually pleasing and brimming with character.  The moulded plywood seat is unusually wide in proportion to its depth and a waterfall edge at the front softens contact with the hamstrings. </p>",
+            "text": "<p>Допоможемо обрати покриття під ваш стиль, навантаження та бюджет.</p>",
             "subtext_color": true
           }
         },
@@ -787,7 +787,7 @@
         "section_header_alignment": "center",
         "section_header_alignment_mobile": "inherit",
         "subheading": "",
-        "heading": "Get Inspired by Spaces",
+        "heading": "Натхнення для вашого простору",
         "highlight_style": "none",
         "highlight_font_style": "italic",
         "highlight_style_color": "",
@@ -852,7 +852,7 @@
             "highlight_text_color": "",
             "heading_size": "h4",
             "heading_font": "heading",
-            "text": "<p>All orders over $500 are delivered to your doorstep at no extra charge.</p>",
+            "text": "<p>Безкоштовна доставка для замовлень від 500 $.</p>",
             "text_size": "text-base",
             "button_label": "Shipping Details",
             "button_style": "btn--plain",
@@ -872,7 +872,7 @@
             "highlight_text_color": "",
             "heading_size": "h4",
             "heading_font": "heading",
-            "text": "<p>Enjoy the freedom of stress-free shopping with our hassle-free and return policy.</p>",
+            "text": "<p>Зручне повернення протягом 30 днів — купуйте без зайвих ризиків.</p>",
             "text_size": "text-base",
             "button_label": "Return Policy",
             "button_style": "btn--plain",
@@ -885,16 +885,16 @@
             "icon": "chat",
             "max_width": 60,
             "max_width_mb": 60,
-            "title": "Secure Payment",
+            "title": "Безпечна оплата",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
             "heading_size": "h4",
             "heading_font": "heading",
-            "text": "<p>Shop with confidence knowing your payments are secure and your information</p>",
+            "text": "<p>Оплата захищена — ваші дані в безпеці.</p>",
             "text_size": "text-base",
-            "button_label": "More About Payment",
+            "button_label": "Детальніше про оплату",
             "button_style": "btn--plain",
             "button_icon": "caret-right"
           }
@@ -960,7 +960,7 @@
           "settings": {
             "color_scheme": "",
             "social_media": "instagram",
-            "heading": "furniturelover"
+            "heading": "svitparketu"
           }
         },
         "gallery_CeNnhG": {

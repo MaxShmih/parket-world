@@ -264,7 +264,7 @@
           "type": "text",
           "settings": {
             "text_link": "",
-            "text": "Fast Delivery",
+            "text": "Швидка доставка",
             "text_size": "h4",
             "text_opacity": 100,
             "use_custom_color": false,
@@ -275,7 +275,7 @@
           "type": "text",
           "settings": {
             "text_link": "",
-            "text": "30 Days Free Returns",
+            "text": "30 днів безкоштовного повернення",
             "text_size": "h4",
             "text_opacity": 100,
             "use_custom_color": false,
@@ -286,7 +286,7 @@
           "type": "text",
           "settings": {
             "text_link": "",
-            "text": "Secure Payment",
+            "text": "Безпечна оплата",
             "text_size": "h4",
             "text_opacity": 100,
             "use_custom_color": false,
