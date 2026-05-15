@@ -1,0 +1,15 @@
+# Локальні файли в корені (не частина теми)
+/*.jpg
+/*.jpeg
+/*.png
+/*.gif
+/*.webp
+/*.ai
+/*.eps
+/*.pdf
+/newsection.liquid
+/theme/
+
+.DS_Store
+Thumbs.db
+.shopify/
