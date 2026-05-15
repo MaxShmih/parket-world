@@ -1,6 +1,6 @@
 {%- liquid
   assign heading_size = block.settings.heading_size | default: 'h4'
-  assign use_specs_metafield = block.settings.use_specifications_metafield | default: true
+  assign use_specs_metafield = block.settings.use_specifications_metafield
   assign specs_mf = product.metafields.custom.specifications_text
   assign specs_raw = ''
 
