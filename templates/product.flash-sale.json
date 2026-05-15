@@ -150,7 +150,6 @@
             "icon": "none",
             "content": "",
             "page": "",
-            "use_specifications_metafield": true,
             "default_open": true,
             "show_below_product_media": true
           }
