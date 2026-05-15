@@ -11,6 +11,12 @@
 /newsection.liquid
 /theme/
 
+# Експорти Shopify / Translate & Adapt (не в репо)
+*.zip
+SvitParketu_translations*
+products_export*
+theme_export*
+
 .DS_Store
 Thumbs.db
 .shopify/
