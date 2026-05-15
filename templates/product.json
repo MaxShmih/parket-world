@@ -116,15 +116,6 @@
           "type": "pickup_availability",
           "settings": {}
         },
-        "promotion_alert_L7ipQp": {
-          "type": "promotion_alert",
-          "settings": {
-            "text_color": "#049b6e",
-            "icon": "lightning",
-            "heading": "Обмежена пропозиція",
-            "description": "<p>Знижка 20 $ при замовленні від 1 000 $! <a href=\"/collections/all\" title=\"Усі товари\">Детальніше</a></p>"
-          }
-        },
         "complementary": {
           "type": "complementary",
           "settings": {
@@ -149,7 +140,7 @@
             "content": "",
             "page": "",
             "use_specifications_metafield": true,
-            "default_open": true,
+            "default_open": false,
             "show_below_product_media": true
           }
         },
@@ -159,9 +150,9 @@
             "heading": "Деталі товару",
             "heading_size": "h4",
             "icon": "none",
-            "use_specifications_metafield": false,
             "content": "<p>Якісні матеріали, стійкість до навантажень і сучасний вигляд — наша підлога створена для комфорту щодня. Підходить для житлових і комерційних приміщень, легко поєднується з різними стилями інтер’єру.</p>",
             "page": "",
+            "use_specifications_metafield": false,
             "default_open": false,
             "show_below_product_media": true
           }
@@ -172,9 +163,9 @@
             "heading": "Матеріали та догляд",
             "heading_size": "h4",
             "icon": "none",
-            "use_specifications_metafield": false,
             "content": "<p>Для догляду використовуйте м’яку вологу ганчірку без агресивних засобів. Не залишайте стоячу воду та уникайте абразивів — так покриття довше зберігатиме вигляд і властивості.</p>",
             "page": "",
+            "use_specifications_metafield": false,
             "default_open": false,
             "show_below_product_media": true
           }
@@ -229,7 +220,6 @@
         "buy_buttons",
         "icon_with_text_UAYgQU",
         "pickup_availability",
-        "promotion_alert_L7ipQp",
         "complementary",
         "collapsible-row-1",
         "collapsible-row-2",
@@ -262,37 +252,45 @@
         "testimonial_dhi3Xf": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "heading": "Відгуки",
             "text": "<p>«Дуже задоволений якістю та зовнішнім виглядом. Рекомендую!»</p>",
             "author": "Stephanie L.",
-            "bio": "Підтверджений покупець"
+            "bio": "Підтверджений покупець",
+            "product": ""
           }
         },
         "testimonial_D7Mq7i": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "heading": "Відгуки",
             "text": "<p>Якісне покриття, відповідальне виробництво та зручна політика повернення — чудовий вибір.</p>",
             "author": "Rachel M.",
-            "bio": "Підтверджений покупець"
+            "bio": "Підтверджений покупець",
+            "product": ""
           }
         },
         "testimonial_33tAjm": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "heading": "Відгуки",
             "text": "<p>«Відмінна підлога за адекватною ціною. Монтаж пройшов без проблем, сервіс на висоті.»</p>",
             "author": "Emily J.",
-            "bio": "Підтверджений покупець"
+            "bio": "Підтверджений покупець",
+            "product": ""
           }
         },
         "testimonial_dDRMwy": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "heading": "Відгуки",
             "text": "<p>Якісні матеріали, еко-підхід і уважний сервіс — саме те, що потрібно для дому.</p>",
             "author": "Sarah T.",
-            "bio": "Підтверджений покупець"
+            "bio": "Підтверджений покупець",
+            "product": ""
           }
         }
       },
@@ -360,7 +358,13 @@
             "button_label": "",
             "button_link": "",
             "button_style": "btn--primary",
-            "button_icon": "none"
+            "button_icon": "none",
+            "icon_1": "check",
+            "heading_1": "Heading",
+            "icon_2": "check",
+            "heading_2": "Heading",
+            "icon_3": "check",
+            "heading_3": "Heading"
           }
         },
         "image_with_text_LQUEir": {
@@ -379,8 +383,15 @@
             "description": "<p>Ми працюємо з перевіреними брендами підлогових покриттів, допомагаємо з підбором, розрахунком кількості та консультацією щодо укладання.</p>",
             "description_size": "text-base",
             "button_label": "Переглянути каталог",
+            "button_link": "",
             "button_style": "btn--primary",
-            "button_icon": "none"
+            "button_icon": "none",
+            "icon_1": "check",
+            "heading_1": "Heading",
+            "icon_2": "check",
+            "heading_2": "Heading",
+            "icon_3": "check",
+            "heading_3": "Heading"
           }
         },
         "tab_xGBJeM": {
@@ -683,6 +694,7 @@
           "type": "button",
           "settings": {
             "button_label": "Explore More Details",
+            "button_link": "",
             "button_style": "btn--primary",
             "button_icon": "none"
           }
@@ -868,6 +880,7 @@
             "text": "<p>Безкоштовна доставка для замовлень від 500 $.</p>",
             "text_size": "text-base",
             "button_label": "Деталі доставки",
+            "button_link": "",
             "button_style": "btn--plain",
             "button_icon": "caret-right"
           }
@@ -888,6 +901,7 @@
             "text": "<p>Зручне повернення протягом 30 днів — купуйте без зайвих ризиків.</p>",
             "text_size": "text-base",
             "button_label": "Return Policy",
+            "button_link": "",
             "button_style": "btn--plain",
             "button_icon": "caret-right"
           }
@@ -908,6 +922,7 @@
             "text": "<p>Оплата захищена — ваші дані в безпеці.</p>",
             "text_size": "text-base",
             "button_label": "Детальніше про оплату",
+            "button_link": "",
             "button_style": "btn--plain",
             "button_icon": "caret-right"
           }
@@ -964,6 +979,7 @@
           "type": "gallery",
           "settings": {
             "color_scheme": "",
+            "image_link": "",
             "social_media": "instagram",
             "heading": "thisisaaccount"
           }
@@ -972,6 +988,7 @@
           "type": "gallery",
           "settings": {
             "color_scheme": "",
+            "image_link": "",
             "social_media": "instagram",
             "heading": "svitparketu"
           }
@@ -980,6 +997,7 @@
           "type": "gallery",
           "settings": {
             "color_scheme": "",
+            "image_link": "",
             "social_media": "instagram",
             "heading": "thisisaaccount"
           }
@@ -988,6 +1006,7 @@
           "type": "gallery",
           "settings": {
             "color_scheme": "",
+            "image_link": "",
             "social_media": "instagram",
             "heading": "baddyjam"
           }
@@ -996,6 +1015,7 @@
           "type": "gallery",
           "settings": {
             "color_scheme": "scheme-1",
+            "image_link": "",
             "social_media": "instagram",
             "heading": "liamwealthy"
           }
@@ -1004,6 +1024,7 @@
           "type": "gallery",
           "settings": {
             "color_scheme": "scheme-1",
+            "image_link": "",
             "social_media": "instagram",
             "heading": "baddyjam"
           }
@@ -1012,6 +1033,7 @@
           "type": "gallery",
           "settings": {
             "color_scheme": "scheme-1",
+            "image_link": "",
             "social_media": "instagram",
             "heading": "liamwealthy"
           }
@@ -1041,6 +1063,7 @@
         "text_size": "text-base",
         "show_button_on_top": false,
         "button_label": "@garage_store",
+        "button_link": "",
         "button_style": "btn--underline",
         "button_icon": "none",
         "direction": "left",
