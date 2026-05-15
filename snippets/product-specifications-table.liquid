@@ -5,27 +5,27 @@
 {%- endcomment -%}
 {%- assign specs_raw = specs_raw | default: '' | strip -%}
 {%- if specs_raw != blank -%}
-  {%- liquid
-    assign normalized = specs_raw | replace: '\r\n', '\n' | replace: '\r', '\n'
-    assign rows = normalized | split: '\n'
-  -%}
+  {%- assign rows = specs_raw | newline_to_br | split: '<br />' -%}
   <div class="product-specifications">
     <table class="product-specifications__table">
       <tbody>
         {%- for row in rows -%}
+          {%- assign row_stripped = row | strip -%}
+          {%- if row_stripped == blank -%}
+            {%- continue -%}
+          {%- endif -%}
+          {%- unless row_stripped contains '|' -%}
+            {%- continue -%}
+          {%- endunless -%}
           {%- liquid
-            assign row_stripped = row | strip
-            if row_stripped == blank
-              continue
-            endif
-
-            unless row_stripped contains '|'
-              continue
-            endunless
-
             assign parts = row_stripped | split: '|'
             assign label = parts[0] | strip
             assign value = parts[1] | strip
+
+            if label == blank and parts.size > 2
+              assign label = parts[1] | strip
+              assign value = parts[2] | strip
+            endif
           -%}
           {%- if label != blank and value != blank -%}
             <tr>
