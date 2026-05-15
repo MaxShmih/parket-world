@@ -354,7 +354,7 @@
       "title": "Ваш кошик",
       "remove_title": "Видалити {{ title }}",
       "estimated_total": "Орієнтовна сума",
-      "checkout": "Зацініть",
+      "checkout": "Оплата",
       "empty": "Ваш кошик наразі порожній.",
       "taxes_and_shipping_policy_at_checkout_html": "Податки та <a href=\"{{ link }}\" class=\"btn--link text-sm-extra\">вартість доставки</a> розраховуються під час оформлення замовлення",
       "taxes_included_but_shipping_at_checkout": "Податки включено, вартість доставки розраховується при оформленні замовлення",
