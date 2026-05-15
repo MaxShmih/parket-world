@@ -3082,16 +3082,16 @@
         "sort": {
           "label": "Sort collections by:",
           "options__1": {
-            "label": "Alphabetically, A-Z"
+            "label": "За назвою: А–Я"
           },
           "options__2": {
-            "label": "Alphabetically, Z-A"
+            "label": "За назвою: Я–А"
           },
           "options__3": {
-            "label": "Date, new to old"
+            "label": "Дата: від нових"
           },
           "options__4": {
-            "label": "Date, old to new"
+            "label": "Дата: від старих"
           },
           "options__5": {
             "label": "Product count, high to low"
@@ -3704,7 +3704,7 @@
       }
     },
     "recently-viewed-products": {
-      "name": "Recently viewed products"
+      "name": "Нещодавно переглянуті товари"
     },
     "lookbook-slider": {
       "name": "Lookbook slider",

@@ -2075,8 +2075,15 @@
     },
     "collections": {
       "sorting": {
-        "best_selling": "Найкращий продаж",
-        "manual": "Рекомендовано"
+        "best_selling": "Найкращі продажі",
+        "manual": "Рекомендовано",
+        "title_ascending": "За назвою: А–Я",
+        "title_descending": "За назвою: Я–А",
+        "price_ascending": "Ціна: від низької",
+        "price_descending": "Ціна: від високої",
+        "created_ascending": "Дата: від старих",
+        "created_descending": "Дата: від нових",
+        "relevance": "Найрелевантніші"
       }
     },
     "page_titles": {
@@ -2087,7 +2094,7 @@
     },
     "search": {
       "sorting": {
-        "relevance": "Актуальність"
+        "relevance": "Найрелевантніші"
       }
     }
   },
