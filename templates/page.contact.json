@@ -74,7 +74,7 @@
             "field_type": "phone",
             "heading": "Номер телефону:",
             "placeholder": "+380 98 00 00 000",
-            "required": true,
+            "required": false,
             "full_width": true,
             "select_options": "",
             "checkbox_checked_value": "Yes",
