@@ -1576,6 +1576,112 @@
         "padding_top": 40,
         "padding_bottom": 60
       }
+    },
+    "scrolling_gallery_image_zk3eyG": {
+      "type": "scrolling-gallery-image",
+      "blocks": {
+        "gallery_EbfHEq": {
+          "type": "gallery",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/1_e4b5e70a-1dc1-475c-8b7d-cfb80ee23ef5.jpg",
+            "image_avatar": "shopify://shop_images/logo.jpg",
+            "image_link": "https://www.instagram.com/p/DYaEt8Gil0g/?img_index=1",
+            "social_media": "instagram",
+            "heading": "svit_parketu"
+          }
+        },
+        "gallery_JGxqU7": {
+          "type": "gallery",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/2_2d3e38a0-d8e9-4e41-b369-c217eb262249.jpg",
+            "image_avatar": "shopify://shop_images/logo.jpg",
+            "image_link": "https://www.instagram.com/p/DYaBtarClb-/?img_index=6",
+            "social_media": "instagram",
+            "heading": "svit_parketu"
+          }
+        },
+        "gallery_JEh9cz": {
+          "type": "gallery",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/3_0059ea43-0fe3-4abe-882a-6a6187f66383.jpg",
+            "image_avatar": "shopify://shop_images/logo.jpg",
+            "image_link": "https://www.instagram.com/p/DX9nHmtDMDS/?img_index=1",
+            "social_media": "instagram",
+            "heading": "svit_parketu"
+          }
+        },
+        "gallery_wzhqah": {
+          "type": "gallery",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/4.jpg",
+            "image_avatar": "shopify://shop_images/logo.jpg",
+            "image_link": "https://www.instagram.com/p/DXrB1QsjOxq/?img_index=1",
+            "social_media": "instagram",
+            "heading": "svit_parketu"
+          }
+        },
+        "gallery_TyYbJY": {
+          "type": "gallery",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/5.jpg",
+            "image_avatar": "shopify://shop_images/logo.jpg",
+            "image_link": "https://www.instagram.com/p/DXOIZ_CDCD9/?img_index=2",
+            "social_media": "instagram",
+            "heading": "svit_parketu"
+          }
+        },
+        "gallery_4r9Kkq": {
+          "type": "gallery",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/6.jpg",
+            "image_avatar": "shopify://shop_images/logo.jpg",
+            "image_link": "https://www.instagram.com/p/DT-e9CGjGbF/?img_index=1",
+            "social_media": "instagram",
+            "heading": "svit_parketu"
+          }
+        }
+      },
+      "block_order": [
+        "gallery_EbfHEq",
+        "gallery_JGxqU7",
+        "gallery_JEh9cz",
+        "gallery_wzhqah",
+        "gallery_TyYbJY",
+        "gallery_4r9Kkq"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Ми в Instagram",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "show_button_on_top": true,
+        "button_label": "@svit_parketu",
+        "button_link": "https://www.instagram.com/svit_parketu",
+        "button_style": "btn--primary",
+        "button_icon": "caret-right",
+        "direction": "left",
+        "speed": 0.1,
+        "pause_on_hover": true,
+        "column_gap": "medium",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -1588,6 +1694,7 @@
     "featured_collection_RWUfH9",
     "image_with_text_aXhRxw",
     "scrolling_promotion_9Hng8m",
-    "multicolumn_Ff4Wbj"
+    "multicolumn_Ff4Wbj",
+    "scrolling_gallery_image_zk3eyG"
   ]
 }
