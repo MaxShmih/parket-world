@@ -163,7 +163,7 @@
             "heading": "Матеріали та догляд",
             "heading_size": "h4",
             "icon": "none",
-            "content": "<p>Для догляду використовуйте м’яку вологу ганчірку без агресивних засобів. Не залишайте стоячу воду та уникайте абразивів — так покриття довше зберігатиме вигляд і властивості.</p>",
+            "content": "<p>{{ product.metafields.custom.materials | metafield_tag }}</p>",
             "page": "",
             "use_specifications_metafield": false,
             "default_open": false,
