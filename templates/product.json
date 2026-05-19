@@ -872,9 +872,11 @@
           "type": "gallery",
           "settings": {
             "color_scheme": "",
-            "image_link": "",
+            "image": "shopify://shop_images/1_e4b5e70a-1dc1-475c-8b7d-cfb80ee23ef5.jpg",
+            "image_avatar": "shopify://shop_images/logo.jpg",
+            "image_link": "https://www.instagram.com/p/DYaEt8Gil0g/?img_index=1",
             "social_media": "instagram",
-            "heading": "thisisaaccount"
+            "heading": "svit_parketu"
           }
         },
         "gallery_WMR7mX": {
