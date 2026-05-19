@@ -12,7 +12,10 @@
     "breadcrumbs_xYaBHj": {
       "type": "breadcrumbs",
       "settings": {
-        "text_alignment": "start"
+        "container": "fixed",
+        "text_alignment": "start",
+        "padding_top": 16,
+        "padding_bottom": 20
       }
     },
     "main": {
@@ -21,6 +24,7 @@
         ".rich-text {max-width: 67rem;}"
       ],
       "settings": {
+        "container": "fixed",
         "text_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 40
@@ -33,32 +37,33 @@
           "type": "sidebar",
           "settings": {
             "position": "right",
-            "heading": "Need Help?",
+            "heading": "Потрібна допомога?",
             "heading_size": "h3",
-            "text": "<p>To us, design has a broader purpose and as you can read about on this website, we are on a mission. </p>",
+            "text": "",
             "text_size": "text-base",
             "icon_1": "map-pin",
             "icon_width_1": 32,
             "icon_color_1": "#1d349a",
-            "icon_heading_1": "General Office",
+            "icon_heading_1": "Адреса",
             "icon_heading_size_1": "h5",
-            "icon_text_1": "<p>382 NE 191st St # 87394 Miami</p>",
+            "icon_text_1": "<p><a href=\"https://www.google.com/maps/place/%22%D0%A1%D0%92%D0%86%D0%A2+%D0%9F%D0%90%D0%A0%D0%9A%D0%95%D0%A2%D0%A3%22+%D0%BB%D0%B0%D0%BC%D1%96%D0%BD%D0%B0%D1%82,+%D0%B2%D1%96%D0%BD%D1%96%D0%BB,+%D0%BF%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BD%D0%B0+%D0%B4%D0%BE%D1%88%D0%BA%D0%B0/@49.5589789,25.5969469,21z/data=!4m6!3m5!1s0x473031497ea95857:0x98939942d3427493!8m2!3d49.5589623!4d25.5969603!16s%2Fg%2F11c1txt55n?authuser=0&entry=tts\" target=\"_blank\" title=\"https://www.google.com/maps/place/%22%D0%A1%D0%92%D0%86%D0%A2+%D0%9F%D0%90%D0%A0%D0%9A%D0%95%D0%A2%D0%A3%22+%D0%BB%D0%B0%D0%BC%D1%96%D0%BD%D0%B0%D1%82,+%D0%B2%D1%96%D0%BD%D1%96%D0%BB,+%D0%BF%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BD%D0%B0+%D0%B4%D0%BE%D1%88%D0%BA%D0%B0/@49.5589789,25.5969469,21z/data=!4m6!3m5!1s0x473031497ea95857:0x98939942d3427493!8m2!3d49.5589623!4d25.5969603!16s%2Fg%2F11c1txt55n?authuser=0&entry=tts\">м.Тернопіль, вул. Олени Теліги, 2</a></p>",
             "icon_vertical_alignment_1": "start",
             "icon_2": "phone",
             "icon_width_2": 28,
             "icon_color_2": "#1d349a",
-            "icon_heading_2": "Call Us",
+            "icon_heading_2": "Подзвонити нам",
             "icon_heading_size_2": "h5",
-            "icon_text_2": "<p>+1 888-234-1234 (tool-free)</p>",
+            "icon_text_2": "<p>+<a href=\"tel:+380676702755\" title=\"tel:+380676702755\">380676702755<br/></a>+<a href=\"tel:+380502652755\" title=\"tel:+380502652755\">380502652755</a></p>",
             "icon_vertical_alignment_2": "start",
             "icon_3": "clock",
             "icon_width_3": 28,
             "icon_color_3": "#1d349a",
-            "icon_heading_3": "Working Hour",
+            "icon_heading_3": "Графік роботи",
             "icon_heading_size_3": "h5",
-            "icon_text_3": "<p>Mon – Fri, 7:30 AM – 4:00 PM PT<br/>Sat, 8:00 AM – 1:00 PM PT<br/>Sun, Closed</p>",
+            "icon_text_3": "<p>Пн.- Пт: 10:00 – 18:00<br/>Сб: 10:00 – 15:00</p>",
             "icon_vertical_alignment_3": "start",
-            "button_label": "Find a Store",
+            "button_label": "Ми на карті",
+            "button_link": "",
             "button_style": "btn--primary",
             "button_icon": "none"
           }
@@ -79,6 +84,7 @@
         },
         "custom_field_8mNKKQ": {
           "type": "custom_field",
+          "disabled": true,
           "settings": {
             "field_type": "text",
             "heading": "Order Number",
@@ -90,30 +96,16 @@
             "checkbox_uncheck_value": "No",
             "radio_options": ""
           }
-        },
-        "custom_field_d63Kne": {
-          "type": "custom_field",
-          "settings": {
-            "field_type": "select",
-            "heading": "Country",
-            "placeholder": "",
-            "required": false,
-            "full_width": true,
-            "select_options": "Austria,Viet Nam,Japan",
-            "checkbox_checked_value": "Yes",
-            "checkbox_uncheck_value": "No",
-            "radio_options": ""
-          }
         }
       },
       "block_order": [
         "sidebar_6PaerX",
         "custom_field_8AQYaC",
-        "custom_field_8mNKKQ",
-        "custom_field_d63Kne"
+        "custom_field_8mNKKQ"
       ],
       "custom_css": [],
       "settings": {
+        "container": "fixed",
         "section_color_scheme": "",
         "heading": "",
         "highlight_style": "none",
@@ -195,6 +187,11 @@
       ],
       "settings": {
         "color_scheme": "scheme-3",
+        "container": "fixed",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "heading": "Scrolling promotion",
+        "heading_size": "h1",
         "direction": "left",
         "pause_on_hover": true,
         "speed": 0.2,
