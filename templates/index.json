@@ -183,7 +183,7 @@
         "featured_collection_PMnkpX": {
           "type": "featured_collection",
           "settings": {
-            "collection": "засоби-для-догляду",
+            "collection": "zasobi-dlya-doglyadu",
             "title": ""
           }
         }
@@ -368,7 +368,7 @@
             "description": "<p>Сучасні дверні рішення для гармонійного та завершеного інтер’єру</p>",
             "description_size": "text-sm",
             "button_label": "Переглянути товари",
-            "button_link": "shopify://collections/двері",
+            "button_link": "shopify://collections/dveri",
             "button_style": "btn--primary",
             "button_icon": "none",
             "enable_preload_image": false
@@ -515,11 +515,11 @@
         "collection_kXeCCW": {
           "type": "collection",
           "settings": {
-            "collection": "двері",
+            "collection": "dveri",
             "title": "",
             "show_banner": true,
             "color_scheme": "scheme-inverse",
-            "card_link": "shopify://collections/двері",
+            "card_link": "shopify://collections/dveri",
             "banner_image": "shopify://shop_images/9022a705161ff42b7879d88f1fd6d0e8_1d826a0b-1567-4847-a09b-c0e9337ebf09.png",
             "image_overlay_opacity": 30,
             "content_position": "split-bottom-button",
@@ -781,7 +781,7 @@
         "featured_collection_UTWiiY": {
           "type": "featured_collection",
           "settings": {
-            "collection": "засоби-для-догляду",
+            "collection": "zasobi-dlya-doglyadu",
             "title": ""
           }
         },
