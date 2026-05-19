@@ -127,7 +127,7 @@
         "featured_collection_mDfnzJ": {
           "type": "featured_collection",
           "settings": {
-            "collection": "каталог-паркету",
+            "collection": "catalog-parketu",
             "title": ""
           }
         },
@@ -725,7 +725,7 @@
         "featured_collection_FzRWDn": {
           "type": "featured_collection",
           "settings": {
-            "collection": "каталог-паркету",
+            "collection": "catalog-parketu",
             "title": ""
           }
         },
@@ -933,11 +933,11 @@
         "collection_tqdqYc": {
           "type": "collection",
           "settings": {
-            "collection": "каталог-паркету",
+            "collection": "catalog-parketu",
             "title": "Паркет",
             "show_banner": true,
             "color_scheme": "scheme-inverse",
-            "card_link": "shopify://collections/каталог-паркету",
+            "card_link": "shopify://collections/catalog-parketu",
             "banner_image": "shopify://shop_images/593bb1d3fae6007283e23631296f0b2d.jpg",
             "image_overlay_opacity": 30,
             "content_position": "split-bottom-button",
