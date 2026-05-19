@@ -272,7 +272,7 @@
             "description": "<p>Натуральна підлога зі стабільною конструкцією для сучасного інтер’єру</p>",
             "description_size": "text-sm",
             "button_label": "Переглянути товари",
-            "button_link": "shopify://collections/laminat",
+            "button_link": "shopify://collections/inzhenerna-doshka",
             "button_style": "btn--primary",
             "button_icon": "none",
             "enable_preload_image": false
@@ -296,7 +296,7 @@
             "description": "<p>Практичне покриття з натуральними декорами для щоденного комфорту</p>",
             "description_size": "text-sm",
             "button_label": "Переглянути товари",
-            "button_link": "shopify://collections/inzhenerna-doshka",
+            "button_link": "shopify://collections/laminat",
             "button_style": "btn--primary",
             "button_icon": "none",
             "enable_preload_image": false
@@ -320,7 +320,7 @@
             "description": "<p>Водостійке та зносостійке рішення для дому й комерційних просторів</p>",
             "description_size": "text-sm",
             "button_label": "Переглянути товари",
-            "button_link": "shopify://collections/inzhenerna-doshka",
+            "button_link": "shopify://collections/vinilova-pidloha",
             "button_style": "btn--primary",
             "button_icon": "none",
             "enable_preload_image": false
@@ -386,8 +386,8 @@
         "container": "fixed",
         "slide_height": "large",
         "show_controls": true,
-        "autoplay": false,
-        "autoplay_delay": 6,
+        "autoplay": true,
+        "autoplay_delay": 7,
         "show_text_below": false,
         "text_alignment_mobile": "center",
         "accessibility_info": "Slideshow about our brand"
