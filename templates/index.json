@@ -1680,7 +1680,7 @@
         "show_section_divider": false,
         "divider_width": "fixed",
         "padding_top": 30,
-        "padding_bottom": 60
+        "padding_bottom": 30
       }
     }
   },
