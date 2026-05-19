@@ -1059,88 +1059,6 @@
         "padding_bottom": 60
       }
     },
-    "testimonials_mLThk7": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_EtxFFg": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "none",
-            "heading": "Testimonials",
-            "text": "<p>“The products are artful, fun, have a story just as unique as the designers who made it.”</p>",
-            "author": "Jenny Wilson",
-            "bio": "New Mexico",
-            "product": ""
-          }
-        },
-        "testimonial_QPUyLy": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "none",
-            "heading": "Testimonials",
-            "text": "<p>“The best coat I have found.Great colors and materials for life style.”</p>",
-            "author": "Samantha Taylor",
-            "bio": "Portland, Oregon",
-            "product": ""
-          }
-        },
-        "testimonial_iTzQDb": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "none",
-            "heading": "Testimonials",
-            "text": "<p>“Every item feels like a masterpiece, blending creativity and authenticity beautifully.”</p>",
-            "author": "David Martinez",
-            "bio": "Austin, Texas",
-            "product": ""
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_EtxFFg",
-        "testimonial_QPUyLy",
-        "testimonial_iTzQDb"
-      ],
-      "custom_css": [
-        ".testimonial__inner {max-width: 64rem; margin-left: auto; margin-right: auto;}"
-      ],
-      "settings": {
-        "container": "full",
-        "color_scheme": "scheme-3",
-        "section_header_alignment": "center",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "What Clients Talk About Us",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h6",
-        "description": "",
-        "text_size": "text-base",
-        "layout": "focused",
-        "card_color_scheme": "scheme-3",
-        "card_content_color_scheme": "",
-        "card_image_ratio": "adapt",
-        "card_heading_size": "h4",
-        "card_text_size": "h2",
-        "author_info_layout": "vertical",
-        "card_trigger_behavior": "click",
-        "show_image": false,
-        "show_author_image": false,
-        "columns_desktop": 2,
-        "column_gap": "medium",
-        "row_gap": "medium",
-        "enable_slider": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "show_progress_bar": true,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
     "scrolling_promotion_9Hng8m": {
       "type": "scrolling-promotion",
       "blocks": {
@@ -1669,7 +1587,6 @@
     "collection_tabs_VexkkR",
     "featured_collection_RWUfH9",
     "image_with_text_aXhRxw",
-    "testimonials_mLThk7",
     "scrolling_promotion_9Hng8m",
     "multicolumn_Ff4Wbj"
   ]
