@@ -150,7 +150,7 @@
             "heading": "Деталі товару",
             "heading_size": "h4",
             "icon": "none",
-            "content": "<p>Якісні матеріали, стійкість до навантажень і сучасний вигляд — наша підлога створена для комфорту щодня. Підходить для житлових і комерційних приміщень, легко поєднується з різними стилями інтер’єру.</p>",
+            "content": "<p>{{ product.metafields.custom.details | metafield_tag }}</p>",
             "page": "",
             "use_specifications_metafield": false,
             "default_open": false,
@@ -426,6 +426,75 @@
         "padding_bottom": 0
       }
     },
+    "lookbook_banner_UAnED3": {
+      "type": "lookbook-banner",
+      "blocks": {
+        "hotspot_t4Nc8t": {
+          "type": "hotspot",
+          "settings": {
+            "heading": "Безчасний дизайн",
+            "description": "<p>Надійне покриття для комфорту щодня.</p>",
+            "top": 39,
+            "left": 26,
+            "top_mobile": 45,
+            "left_mobile": 30
+          }
+        },
+        "hotspot_UXwwVW": {
+          "type": "hotspot",
+          "settings": {
+            "heading": "Organic Cotton",
+            "description": "<p>Екологічні матеріали та комфорт у щоденному використанні.</p>",
+            "top": 65,
+            "left": 63,
+            "top_mobile": 50,
+            "left_mobile": 70
+          }
+        },
+        "hotspot_fHtLKP": {
+          "type": "hotspot",
+          "settings": {
+            "heading": "Built to Last",
+            "description": "<p>Міцність і довговічність завдяки якісним матеріалам.</p>",
+            "top": 82,
+            "left": 47,
+            "top_mobile": 62,
+            "left_mobile": 48
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_t4Nc8t",
+        "hotspot_UXwwVW",
+        "hotspot_fHtLKP"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Unique Tailored Construction",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "description_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "icon_style": "plus",
+        "icon_color": "light",
+        "card_color_scheme": "",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
     "quick_comparison_table_p9rdxW": {
       "type": "quick-comparison-table",
       "blocks": {
@@ -446,6 +515,10 @@
           "type": "price",
           "settings": {}
         },
+        "variants_Q6kD7j": {
+          "type": "variants",
+          "settings": {}
+        },
         "vendor_kN7AnX": {
           "type": "vendor",
           "settings": {}
@@ -459,6 +532,7 @@
         "info_pEKVwb",
         "description_ym9hXF",
         "price_adCEcV",
+        "variants_Q6kD7j",
         "vendor_kN7AnX",
         "type_ttCzqK"
       ],
@@ -467,7 +541,7 @@
         "color_scheme": "",
         "section_header_alignment": "center",
         "section_header_alignment_mobile": "inherit",
-        "heading": "Порівнюй з схожими товарами",
+        "heading": "Compare With Similar Items",
         "highlight_style": "none",
         "highlight_font_style": "italic",
         "highlight_style_color": "",
@@ -870,7 +944,7 @@
         "gallery_KtzfTY"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "section_header_alignment": "center",
         "section_header_alignment_mobile": "inherit",
         "subheading": "",
@@ -882,18 +956,18 @@
         "heading_size": "h1",
         "description": "",
         "text_size": "text-base",
-        "show_button_on_top": true,
-        "button_label": "@svit_parketu",
-        "button_link": "https://www.instagram.com/svit_parketu",
-        "button_style": "btn--primary",
-        "button_icon": "caret-right",
+        "show_button_on_top": false,
+        "button_label": "@garage_store",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
         "direction": "left",
         "speed": 0.1,
         "pause_on_hover": true,
         "column_gap": "medium",
         "show_section_divider": false,
         "divider_width": "fixed",
-        "padding_top": 30,
+        "padding_top": 60,
         "padding_bottom": 60
       }
     }
@@ -903,6 +977,7 @@
     "main",
     "tabs_content_8rnbnj",
     "multicolumn_Mxt4d3",
+    "lookbook_banner_UAnED3",
     "quick_comparison_table_p9rdxW",
     "image_with_text_kqXfRQ",
     "custom_content_aJPNXb",
