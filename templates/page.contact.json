@@ -81,27 +81,11 @@
             "checkbox_uncheck_value": "No",
             "radio_options": ""
           }
-        },
-        "custom_field_8mNKKQ": {
-          "type": "custom_field",
-          "disabled": true,
-          "settings": {
-            "field_type": "text",
-            "heading": "Order Number",
-            "placeholder": "Order Number",
-            "required": false,
-            "full_width": false,
-            "select_options": "",
-            "checkbox_checked_value": "Yes",
-            "checkbox_uncheck_value": "No",
-            "radio_options": ""
-          }
         }
       },
       "block_order": [
         "sidebar_6PaerX",
-        "custom_field_8AQYaC",
-        "custom_field_8mNKKQ"
+        "custom_field_8AQYaC"
       ],
       "custom_css": [],
       "settings": {
