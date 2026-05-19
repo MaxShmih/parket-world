@@ -879,69 +879,69 @@
             "heading": "svit_parketu"
           }
         },
-        "gallery_WMR7mX": {
+        "gallery_wnXwAx": {
           "type": "gallery",
           "settings": {
             "color_scheme": "",
-            "image_link": "",
+            "image": "shopify://shop_images/2_2d3e38a0-d8e9-4e41-b369-c217eb262249.jpg",
+            "image_avatar": "shopify://shop_images/logo.jpg",
+            "image_link": "https://www.instagram.com/p/DYaBtarClb-/?img_index=6",
             "social_media": "instagram",
-            "heading": "svitparketu"
+            "heading": "svit_parketu"
           }
         },
-        "gallery_FwhcHj": {
+        "gallery_JWzDVf": {
           "type": "gallery",
           "settings": {
             "color_scheme": "",
-            "image_link": "",
+            "image": "shopify://shop_images/1_e4b5e70a-1dc1-475c-8b7d-cfb80ee23ef5.jpg",
+            "image_avatar": "shopify://shop_images/logo.jpg",
+            "image_link": "https://www.instagram.com/p/DYaEt8Gil0g/?img_index=1",
             "social_media": "instagram",
-            "heading": "thisisaaccount"
+            "heading": "svit_parketu"
           }
         },
-        "gallery_EM4VKr": {
+        "gallery_y3fF6B": {
           "type": "gallery",
           "settings": {
             "color_scheme": "",
-            "image_link": "",
+            "image": "shopify://shop_images/1_e4b5e70a-1dc1-475c-8b7d-cfb80ee23ef5.jpg",
+            "image_avatar": "shopify://shop_images/logo.jpg",
+            "image_link": "https://www.instagram.com/p/DYaEt8Gil0g/?img_index=1",
             "social_media": "instagram",
-            "heading": "baddyjam"
+            "heading": "svit_parketu"
           }
         },
-        "gallery_gxWzJR": {
+        "gallery_LPnLwj": {
           "type": "gallery",
           "settings": {
-            "color_scheme": "scheme-1",
-            "image_link": "",
+            "color_scheme": "",
+            "image": "shopify://shop_images/1_e4b5e70a-1dc1-475c-8b7d-cfb80ee23ef5.jpg",
+            "image_avatar": "shopify://shop_images/logo.jpg",
+            "image_link": "https://www.instagram.com/p/DYaEt8Gil0g/?img_index=1",
             "social_media": "instagram",
-            "heading": "liamwealthy"
+            "heading": "svit_parketu"
           }
         },
-        "gallery_3CDe4q": {
+        "gallery_KtzfTY": {
           "type": "gallery",
           "settings": {
-            "color_scheme": "scheme-1",
-            "image_link": "",
+            "color_scheme": "",
+            "image": "shopify://shop_images/1_e4b5e70a-1dc1-475c-8b7d-cfb80ee23ef5.jpg",
+            "image_avatar": "shopify://shop_images/logo.jpg",
+            "image_link": "https://www.instagram.com/p/DYaEt8Gil0g/?img_index=1",
             "social_media": "instagram",
-            "heading": "baddyjam"
-          }
-        },
-        "gallery_AtjdbC": {
-          "type": "gallery",
-          "settings": {
-            "color_scheme": "scheme-1",
-            "image_link": "",
-            "social_media": "instagram",
-            "heading": "liamwealthy"
+            "heading": "svit_parketu"
           }
         }
       },
       "block_order": [
         "gallery_RzbQhE",
-        "gallery_WMR7mX",
-        "gallery_FwhcHj",
-        "gallery_EM4VKr",
-        "gallery_gxWzJR",
-        "gallery_3CDe4q",
-        "gallery_AtjdbC"
+        "gallery_wnXwAx",
+        "gallery_JWzDVf",
+        "gallery_y3fF6B",
+        "gallery_LPnLwj",
+        "gallery_KtzfTY"
       ],
       "settings": {
         "color_scheme": "scheme-2",
