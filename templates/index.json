@@ -254,8 +254,33 @@
     "slideshow_q3U4Jn": {
       "type": "slideshow",
       "blocks": {
+        "slide_RERLtj": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "background": "shopify://shop_images/ChatGPT_Image_May_19_2026_04_12_16_PM_1.webp",
+            "image_overlay_opacity": 40,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "Інженерна дошка",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "#ffffff",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "description": "<p>Натуральна підлога зі стабільною конструкцією для сучасного інтер’єру</p>",
+            "description_size": "text-sm",
+            "button_label": "Переглянути товари",
+            "button_link": "shopify://collections/inzhenerna-doshka",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": false
+          }
+        },
         "slide_JhU8hg": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-inverse",
             "background": "shopify://shop_images/1_60f40121-0c6e-4b16-bdd3-60ffd6389763.jpg",
@@ -280,6 +305,7 @@
         },
         "slide_U9bPyj": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-inverse",
             "background": "shopify://shop_images/2.jpg",
@@ -304,6 +330,7 @@
         },
         "slide_cQ6eF8": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-inverse",
             "background": "shopify://shop_images/3.jpg",
@@ -328,6 +355,7 @@
         }
       },
       "block_order": [
+        "slide_RERLtj",
         "slide_JhU8hg",
         "slide_U9bPyj",
         "slide_cQ6eF8"
@@ -786,7 +814,7 @@
         "heading_size": "h2",
         "description": "",
         "text_size": "text-base",
-        "button_label": "Shop All Products",
+        "button_label": "",
         "button_link": "",
         "button_style": "btn--plain",
         "button_icon": "caret-right",
