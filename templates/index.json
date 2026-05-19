@@ -386,7 +386,7 @@
         "container": "fixed",
         "slide_height": "large",
         "show_controls": true,
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_delay": 6,
         "show_text_below": false,
         "text_alignment_mobile": "center",
