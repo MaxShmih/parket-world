@@ -170,21 +170,6 @@
             "show_below_product_media": true
           }
         },
-        "payment_info": {
-          "type": "payment_info",
-          "settings": {
-            "color_scheme": "scheme-info",
-            "heading": "Оплата та безпека",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "h5",
-            "description": "<p>Ваші платіжні дані обробляються безпечно. Ми не зберігаємо дані банківських карток і не маємо до них доступу.</p>",
-            "show_payment_icons": true,
-            "show_below_product_media": true
-          }
-        },
         "divider_pPz3Kw": {
           "type": "divider",
           "disabled": true,
@@ -224,7 +209,6 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "payment_info",
         "divider_pPz3Kw",
         "social_sharing",
         "sticky_atc_bar_7HgNgP"
@@ -244,97 +228,6 @@
         "enable_video_looping": true,
         "padding_top": 0,
         "padding_bottom": 60
-      }
-    },
-    "testimonials_8JHr3L": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_dhi3Xf": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "none",
-            "heading": "Відгуки",
-            "text": "<p>«Дуже задоволений якістю та зовнішнім виглядом. Рекомендую!»</p>",
-            "author": "Stephanie L.",
-            "bio": "Підтверджений покупець",
-            "product": ""
-          }
-        },
-        "testimonial_D7Mq7i": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "none",
-            "heading": "Відгуки",
-            "text": "<p>Якісне покриття, відповідальне виробництво та зручна політика повернення — чудовий вибір.</p>",
-            "author": "Rachel M.",
-            "bio": "Підтверджений покупець",
-            "product": ""
-          }
-        },
-        "testimonial_33tAjm": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "none",
-            "heading": "Відгуки",
-            "text": "<p>«Відмінна підлога за адекватною ціною. Монтаж пройшов без проблем, сервіс на висоті.»</p>",
-            "author": "Emily J.",
-            "bio": "Підтверджений покупець",
-            "product": ""
-          }
-        },
-        "testimonial_dDRMwy": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "none",
-            "heading": "Відгуки",
-            "text": "<p>Якісні матеріали, еко-підхід і уважний сервіс — саме те, що потрібно для дому.</p>",
-            "author": "Sarah T.",
-            "bio": "Підтверджений покупець",
-            "product": ""
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_dhi3Xf",
-        "testimonial_D7Mq7i",
-        "testimonial_33tAjm",
-        "testimonial_dDRMwy"
-      ],
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "scheme-3",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "Клієнти нам довіряють",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h2",
-        "description": "",
-        "text_size": "text-base",
-        "layout": "standard",
-        "card_color_scheme": "",
-        "card_content_color_scheme": "",
-        "card_image_ratio": "adapt",
-        "card_heading_size": "h4",
-        "card_text_size": "text-base",
-        "author_info_layout": "vertical",
-        "card_trigger_behavior": "click",
-        "show_image": true,
-        "show_author_image": true,
-        "columns_desktop": 3,
-        "column_gap": "2xs",
-        "row_gap": "inherit",
-        "enable_slider": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "show_progress_bar": true,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "show_section_divider": false,
-        "divider_width": "fixed"
       }
     },
     "tabs_content_8rnbnj": {
@@ -1080,7 +973,6 @@
   "order": [
     "breadcrumbs",
     "main",
-    "testimonials_8JHr3L",
     "tabs_content_8rnbnj",
     "multicolumn_Mxt4d3",
     "lookbook_banner_UAnED3",
