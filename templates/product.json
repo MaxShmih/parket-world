@@ -530,7 +530,7 @@
         "button_style": "btn--primary",
         "button_icon": "caret-right",
         "direction": "left",
-        "speed": 0.1,
+        "speed": 0.2,
         "pause_on_hover": true,
         "column_gap": "medium",
         "show_section_divider": false,
