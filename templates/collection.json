@@ -360,7 +360,7 @@
           "type": "heading",
           "settings": {
             "heading": "Про Світ Паркету",
-            "highlight_style": "none",
+            "highlight_style": "wave_underline",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
