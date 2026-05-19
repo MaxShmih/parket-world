@@ -286,35 +286,6 @@
           {%- endif -%}
         </div>
       {% endif %}
-      <div class="footer__bottom-row flex justify-between items-start">
-        <div class="footer__copyright">
-          <p class="footer__copyright-content">
-            &copy; {{ 'now' | date: '%Y' }}
-            <a class="link-underline" href="{{ routes.root_url }}">{{ shop.name }}</a>.
-            {{ powered_by_link }}
-          </p>
-
-          {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
-            <div class="footer__follow-on-shop">
-              {% comment %} TODO: enable theme-check once `login_button` is accepted as valid filter {% endcomment %}
-              {% # theme-check-disable %}
-              {{ shop | login_button: action: 'follow' }}
-              {% # theme-check-enable %}
-            </div>
-          {%- endif -%}
-        </div>
-        <div class="footer__info flex items-center">
-          {% if section.settings.footer_bottom_menu != blank %}
-            <ul class="linklist linklist--horizontal list-unstyled">
-              {% for link in linklists[section.settings.footer_bottom_menu].links %}
-                <li>
-                  <a href="{{ link.url }}" class="reversed-link">{{ link.title | escape }}</a>
-                </li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </div>
-      </div>
     </div>
   </div>
 </footer>
