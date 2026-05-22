@@ -12,13 +12,27 @@
     is="facet-short"
   >
     {%- for option in results.sort_options -%}
+      {%- liquid
+        if option.value == 'relevance'
+          assign sort_label = 'shopify.search.sorting.relevance' | t
+        else
+          capture sort_t_key
+            echo 'shopify.collections.sorting.'
+            echo option.value | replace: '-', '_'
+          endcapture
+          assign sort_label = sort_t_key | t
+          if sort_label == sort_t_key
+            assign sort_label = option.name
+          endif
+        endif
+      -%}
       <option
         value="{{ option.value | escape }}"
         {% if option.value == sort_by %}
           selected="selected"
         {% endif %}
       >
-        {{ option.name | escape }}
+        {{ sort_label | escape }}
       </option>
     {%- endfor -%}
   </select>
