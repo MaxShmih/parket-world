@@ -17,10 +17,6 @@ FoxTheme.config = {
   })(),
   isRTL: document.documentElement.getAttribute('dir') === 'rtl',
 };
-console.log(
-  '%c' + window.FoxTheme.settings.themeName + ' theme (v' + window.FoxTheme.settings.themeVersion + ') by Foxecom',
-  'font-size: 14px; color: #FF5C00;'
-);
 (function () {
   // Detect browser has support local storage.
   try {
