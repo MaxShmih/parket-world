@@ -172,7 +172,7 @@
       "add_to_cart": "Додати в кошик",
       "add_to_cart_short": "Додати",
       "add_all_to_cart": "Додати все в кошик",
-      "buy_it_now": "Купити зараз",
+      "buy_it_now": "Оформити заявку",
       "choose_options": "Обрати параметри",
       "choose_options_short": "Переглянути",
       "quick_view": "Швидкий перегляд",
@@ -363,7 +363,7 @@
       "title": "Ваш кошик",
       "remove_title": "Видалити {{ title }}",
       "estimated_total": "Орієнтовна сума",
-      "checkout": "Оплата",
+      "checkout": "Замовити",
       "empty": "Ваш кошик наразі порожній.",
       "taxes_and_shipping_policy_at_checkout_html": "Податки та <a href=\"{{ link }}\" class=\"btn--link text-sm-extra\">вартість доставки</a> розраховуються під час оформлення замовлення",
       "taxes_included_but_shipping_at_checkout": "Податки включено, вартість доставки розраховується при оформленні замовлення",
@@ -726,8 +726,8 @@
         "loading": "Завантаження…",
         "loading_title": "Оформлення замовлення - {{shopName}}",
         "google_map_title": "Карти Google",
-        "confirm_order_button_label": "Підтвердити замовлення",
-        "submit_order_button_label": "Оформити замовлення",
+        "confirm_order_button_label": "Оформити заявку",
+        "submit_order_button_label": "Оформити заявку",
         "submit_for_review_button_label": "Надіслати на розгляд",
         "submit_for_review_notice_label": "Оплата не буде здійснена, доки ваше замовлення не буде переглянуто",
         "edit_link_label": "Редагувати",
@@ -771,7 +771,20 @@
         "expand_notice_label": "Переглянути більше",
         "datepicker": {
           "range_end": "Кінець діапазону"
-        }
+        },
+        "complete_purchase_button_label": "Оформити заявку",
+        "pay_now_button_label": "Оформити заявку",
+        "continue_button_label": "Продовжити",
+        "back_to_contact_information": "Назад до контактів",
+        "back_to_shipping_method": "Назад до доставки",
+        "back_to_payment_method": "Назад до замовлення",
+        "edit_contact_information": "Редагувати контакт",
+        "edit_shipping_method": "Редагувати спосіб доставки",
+        "edit_payment_method": "Редагувати замовлення",
+        "edit_billing_address": "Редагувати платіжну адресу",
+        "choose_shipping_method": "Оберіть спосіб доставки",
+        "choose_payment_method": "Оберіть спосіб замовлення",
+        "choose_billing_address": "Оберіть платіжну адресу"
       },
       "redeemable_errors": {
         "gift_card": {
@@ -929,8 +942,8 @@
         "change_location_link_label": "Змінити місцезнаходження",
         "ship_to_company": "Доставити до {{companyName}}",
         "city_label": "Місто",
-        "email_label": "Електронний лист",
-        "email_placeholder": "Електронний лист",
+        "email_label": "Email",
+        "email_placeholder": "Email",
         "suburb_label": "Передмістя",
         "county_label": "Округ",
         "county_placeholder": "Округ",
@@ -938,7 +951,28 @@
         "state_placeholder": "Штат",
         "region_label": "Регіон",
         "shipping_used_as_billing_notice": "Ця адреса також буде використовуватися як ваша платіжна адреса для цього замовлення.",
-        "last_name_label": "Прізвище"
+        "last_name_label": "Прізвище",
+        "title": "Контакт",
+        "contact_method_title": "Контакт",
+        "email_or_phone_label": "Email або номер мобільного",
+        "email_or_phone_placeholder": "Email або номер мобільного",
+        "first_name_label": "Ім'я",
+        "optional_first_name_label": "Ім'я (необов'язково)",
+        "first_name_placeholder": "Ім'я",
+        "optional_first_name_placeholder": "Ім'я (необов'язково)",
+        "last_name_placeholder": "Прізвище",
+        "address1_label": "Адреса",
+        "address1_placeholder": "Адреса",
+        "address2_label": "Квартира, офіс тощо",
+        "optional_address2_label": "Квартира, офіс тощо (необов'язково)",
+        "address2_placeholder": "Квартира, офіс тощо",
+        "optional_address2_placeholder": "Квартира, офіс тощо (необов'язково)",
+        "country_label": "Країна/регіон",
+        "country_placeholder": "Країна/регіон",
+        "company_label": "Компанія",
+        "optional_company_label": "Компанія (необов'язково)",
+        "shipping_address_title": "Адреса доставки",
+        "address_title": "Адреса"
       },
       "delivery_options": {
         "free_total_label": "Безкоштовно",
@@ -967,10 +1001,10 @@
       },
       "customer_account": {
         "not_user_label": "Не %{first_name}?",
-        "have_an_account_label": "Маєте обліковий запис?",
+        "have_an_account_label": "Вже маєте обліковий запис?",
         "sign_in_link_label": "Увійти",
         "sign_out_link_label": "Вийти",
-        "save_my_information_label": "Збережіть цю інформацію на наступний раз",
+        "save_my_information_label": "Зберегти цю інформацію на наступний раз",
         "invalid_address": "Вибрана адреса недійсна. %{update_address_link} або виберіть іншу адресу.",
         "incomplete_address": "Вибрана адреса неповна. %{update_address_link} або виберіть іншу адресу.",
         "rollup_label": "Обліковий запис",
@@ -1219,7 +1253,11 @@
         "free_rate_label": "Безкоштовно",
         "no_rates_for_cart_or_destination_notice": "Для вашого кошика чи адреси немає доступних способів доставки",
         "shipping_line_delivery_instructions": "Введіть необхідну інформацію, як-от коди дверей або інструкції щодо місця доставки.",
-        "shipping_method_subscription_group_title": "Передплата"
+        "shipping_method_subscription_group_title": "Передплата",
+        "title": "Спосіб доставки",
+        "shipping_method_title": "Спосіб доставки",
+        "please_enter_your_shipping_information_notice": "Введіть адресу доставки, щоб переглянути доступні способи доставки.",
+        "no_rates_contact_notice": "Зв’яжіться з нами для деталей"
       },
       "localized_fields": {
         "additional_information": {
@@ -1267,7 +1305,7 @@
         "amazon_payments_failed_mfa_challenge": "Обраний спосіб оплати не може бути використаний. Виберіть інший спосіб або зв'яжіться зі своїм банком чи емітентом картки.",
         "amazon_payments_abandoned_mfa_challenge": "Ваш платіж не вдалося здійснити. Спробуйте інший спосіб оплати або зверніться до свого банку чи емітента картки.",
         "amazon_payments_could_not_enqueue_authorize": "Виникла проблема з обробкою вашого платежу. Спробуйте ще раз або використайте інший спосіб оплати.",
-        "title": "Оплата",
+        "title": "Замовити",
         "amount_left_to_pay_label": "Термін оплати:",
         "discount_button_action_label": "Застосувати промокод",
         "discount_codes_removed_summary": {
@@ -1424,7 +1462,7 @@
         "free_order_notice_html": "Ваше замовлення <strong>безкоштовне</strong>. Оплата не потрібна.",
         "offsite_gateway_redirect_hint": "Вас буде переспрямовано до %{gateway_label} для завершення покупки.",
         "offsite_gateway_redirect_hint_no_button_label": "Вас буде переспрямовано до %{gateway_label} для завершення покупки.",
-        "billing_address_description": "Виберіть адресу, яка відповідає вашій картці або способу оплати.",
+        "billing_address_description": "Вкажіть адресу для рахунку або документів.",
         "brand_not_available": "Цей магазин не приймає картки {{brand}}. Скористайтеся іншою карткою для оплати.",
         "billing_address_invalid_phone_no_card": "Оновіть номер телефону у своїй платіжній адресі, щоб продовжити.",
         "vaulting_agreement_label": "Збережіть мою платіжну інформацію в %{company} для швидшого оформлення замовлення.",
@@ -1441,12 +1479,15 @@
           "multibanco": {
             "reference": "Посилання"
           }
-        }
+        },
+        "billing_address_title": "Платіжна адреса",
+        "same_billing_address_label": "Та сама, що й адреса доставки",
+        "different_billing_address_label": "Інша платіжна адреса"
       },
       "billing": {
-        "billing_address_title": "Рахунок на оплату",
+        "billing_address_title": "Платіжна адреса",
         "billing_address_rollup_accessibility_label": "Варіанти виставлення рахунку",
-        "same_as_shipping": "Така ж, як адреса доставки",
+        "same_as_shipping": "Та сама, що й адреса доставки",
         "add_address": "Використати іншу адресу",
         "edit": "Редагувати",
         "delete": "Видалити",
@@ -1458,7 +1499,9 @@
           "add_address": "Додати адресу",
           "save": "Зберегти",
           "cancel": "Скасувати"
-        }
+        },
+        "use_different_billing_address": "Інша платіжна адреса",
+        "different_billing_address_label": "Інша платіжна адреса"
       },
       "company_location": {
         "location_title": "Місцезнаходження компанії",
@@ -1815,7 +1858,14 @@
         "total_due_label": "Загальна сума до сплати",
         "payment_terms_totals": {
           "due_today_next": "До сплати сьогодні"
-        }
+        },
+        "title": "Ваше замовлення",
+        "subtotal_label": "Підсумок",
+        "shipping_label": "Доставка",
+        "shipping_pending_message": "Введіть адресу доставки",
+        "shipping_pending_value": "—",
+        "expand_order_summary": "Показати замовлення",
+        "collapse_order_summary": "Сховати замовлення"
       },
       "tips": {
         "no_tip_label": "Жоден"
@@ -1926,7 +1976,9 @@
         "missing_country_fallback": "ваша країна"
       },
       "marketing": {
-        "pending_accept_marketing_checkbox_label": "Перевірте свою електронну пошту, щоб підтвердити підписку на новини та пропозиції"
+        "pending_accept_marketing_checkbox_label": "Перевірте свою електронну пошту, щоб підтвердити підписку на новини та пропозиції",
+        "accept_marketing_checkbox_label": "Надсилати мені новини та пропозиції",
+        "email_me_with_news_and_offers": "Надсилати мені новини та пропозиції"
       },
       "change_currency": {
         "card_provider_fx_charges_warning": "Ваш постачальник картки може стягувати комісію за операції в %{currency_code}."
@@ -1979,7 +2031,10 @@
         }
       },
       "shop_policies": {
-        "legal_notice": "Юридична примітка"
+        "legal_notice": "Юридична примітка",
+        "privacy_policy": "Політика конфіденційності",
+        "terms_of_service": "Умови використання",
+        "refund_policy": "Умови повернення"
       },
       "customer_payment_methods": {
         "update_card_button_label": "Оновити картку"
@@ -1995,6 +2050,12 @@
             "other": "Видалити елементи"
           }
         }
+      },
+      "delivery": {
+        "title": "Доставка"
+      },
+      "delivery_address": {
+        "title": "Доставка"
       }
     },
     "pagination": {

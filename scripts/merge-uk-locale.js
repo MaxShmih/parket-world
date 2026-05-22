@@ -66,7 +66,7 @@ const UA = {
   'blogs.article.next_post': 'Наступна публікація',
   'blogs.article.related_posts_title': 'Схожі публікації',
   'products.product.add_all_to_cart': 'Додати все в кошик',
-  'products.product.buy_it_now': 'Купити зараз',
+  'products.product.buy_it_now': 'Оформити заявку',
   'products.product.choose_options': 'Обрати параметри',
   'products.product.quick_view': 'Швидкий перегляд',
   'products.product.quick_view_title': 'Оберіть варіант',

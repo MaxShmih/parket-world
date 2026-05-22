@@ -231,4 +231,6 @@ if (fs.existsSync(schemaPath)) {
   console.log('Updated uk-UA.schema.json phrases');
 }
 
+require('./translate-checkout');
+
 console.log('Done. JSON files updated:', n);
