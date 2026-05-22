@@ -39,7 +39,7 @@
     "buttons_font": "body",
     "buttons_font_weight": "700",
     "buttons_letter_spacing": 0,
-    "buttons_transform": "capitalize",
+    "buttons_transform": "none",
     "page_width": 1700,
     "buttons_corner_radius": "round",
     "inputs_corner_radius": "round",
