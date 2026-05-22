@@ -188,7 +188,7 @@
         "contact_information_PWDmy3": {
           "type": "contact_information",
           "settings": {
-            "block_width": 25,
+            "block_width": 34,
             "heading": "Покупцям",
             "heading_size": "h6",
             "address": "м.Тернопіль, вул. Олени Теліги, 2",
