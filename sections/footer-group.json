@@ -147,6 +147,27 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "image_text_NgKdib": {
+          "type": "image_text",
+          "settings": {
+            "block_width": 25,
+            "layout": "image_top",
+            "heading": "",
+            "heading_size": "h6",
+            "image": "shopify://shop_images/svit_parketu_new_logo_SVG.svg",
+            "image_width": 250,
+            "image_width_mobile": 250,
+            "overlay_opacity": 70,
+            "text": "<p>Магазин підлогових покриттів, дверей та супутніх матеріалів. Ламінат, вініл, SPC, паркетна дошка, інженерна дошка, терасна дошка та професійна паркетна хімія.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "color_scheme": "scheme-inverse",
+            "content_alignment": "left",
+            "open_default": false,
+            "show_divider": false
+          }
+        },
         "newsletter_3qCrWc": {
           "type": "newsletter",
           "disabled": true,
@@ -166,10 +187,10 @@
         "menu_DEKGYP": {
           "type": "menu",
           "settings": {
-            "block_width": 33,
-            "heading": "Компанія",
+            "block_width": 25,
+            "heading": "Каталог",
             "heading_size": "h6",
-            "menu": "footer",
+            "menu": "navigation-menu",
             "open_default": false,
             "show_divider": true
           }
@@ -177,10 +198,10 @@
         "menu_4eCrBB": {
           "type": "menu",
           "settings": {
-            "block_width": 33,
-            "heading": "Колекції",
+            "block_width": 25,
+            "heading": "Політики",
             "heading_size": "h6",
-            "menu": "footer",
+            "menu": "link-list",
             "open_default": false,
             "show_divider": false
           }
@@ -188,7 +209,7 @@
         "contact_information_PWDmy3": {
           "type": "contact_information",
           "settings": {
-            "block_width": 34,
+            "block_width": 25,
             "heading": "Покупцям",
             "heading_size": "h6",
             "address": "м.Тернопіль, вул. Олени Теліги, 2",
@@ -201,6 +222,7 @@
         }
       },
       "block_order": [
+        "image_text_NgKdib",
         "newsletter_3qCrWc",
         "menu_DEKGYP",
         "menu_4eCrBB",
