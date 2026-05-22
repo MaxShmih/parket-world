@@ -171,7 +171,7 @@
             "heading_size": "h6",
             "menu": "footer",
             "open_default": false,
-            "show_divider": false
+            "show_divider": true
           }
         },
         "menu_4eCrBB": {
@@ -185,13 +185,16 @@
             "show_divider": false
           }
         },
-        "menu_6cjHfA": {
-          "type": "menu",
+        "contact_information_PWDmy3": {
+          "type": "contact_information",
           "settings": {
-            "block_width": 34,
-            "heading": "Магазин",
+            "block_width": 25,
+            "heading": "Покупцям",
             "heading_size": "h6",
-            "menu": "footer",
+            "address": "м.Тернопіль, вул. Олени Теліги, 2",
+            "working_hours": "9:00am - 6:00pm, Mon to Sun",
+            "email": "svitparketu-tr@ukr.net",
+            "phone": "+380676702755",
             "open_default": false,
             "show_divider": false
           }
@@ -201,7 +204,7 @@
         "newsletter_3qCrWc",
         "menu_DEKGYP",
         "menu_4eCrBB",
-        "menu_6cjHfA"
+        "contact_information_PWDmy3"
       ],
       "custom_css": [],
       "settings": {
