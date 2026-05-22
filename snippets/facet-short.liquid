@@ -29,7 +29,7 @@
           {%- assign sort_label = 'products.facets.sort_created_ascending' | t -%}
         {%- when 'created-descending' -%}
           {%- assign sort_label = 'products.facets.sort_created_descending' | t -%}
-        {%- when 'relevance' -%}
+        {%- when 'relevance', 'most-relevant' -%}
           {%- assign sort_label = 'products.facets.sort_relevance' | t -%}
         {%- else -%}
           {%- assign sort_label = option.name -%}

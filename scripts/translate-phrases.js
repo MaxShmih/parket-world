@@ -160,6 +160,7 @@ const SORT_UA = {
   created_ascending: 'Дата: від старих',
   created_descending: 'Дата: від нових',
   relevance: 'Найрелевантніші',
+  most_relevant: 'Найрелевантніші',
 };
 
 const SORT_FACETS_UA = {

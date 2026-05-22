@@ -594,7 +594,8 @@
         "price_descending": "Ціна: від високої",
         "created_ascending": "Дата: від старих",
         "created_descending": "Дата: від нових",
-        "relevance": "Найрелевантніші"
+        "relevance": "Найрелевантніші",
+        "most_relevant": "Найрелевантніші"
       }
     },
     "search": {
