@@ -12,20 +12,28 @@
     is="facet-short"
   >
     {%- for option in results.sort_options -%}
-      {%- liquid
-        if option.value == 'relevance'
-          assign sort_label = 'shopify.search.sorting.relevance' | t
-        else
-          capture sort_t_key
-            echo 'shopify.collections.sorting.'
-            echo option.value | replace: '-', '_'
-          endcapture
-          assign sort_label = sort_t_key | t
-          if sort_label == sort_t_key
-            assign sort_label = option.name
-          endif
-        endif
-      -%}
+      {%- case option.value -%}
+        {%- when 'manual' -%}
+          {%- assign sort_label = 'products.facets.sort_manual' | t -%}
+        {%- when 'best-selling' -%}
+          {%- assign sort_label = 'products.facets.sort_best_selling' | t -%}
+        {%- when 'title-ascending' -%}
+          {%- assign sort_label = 'products.facets.sort_title_ascending' | t -%}
+        {%- when 'title-descending' -%}
+          {%- assign sort_label = 'products.facets.sort_title_descending' | t -%}
+        {%- when 'price-ascending' -%}
+          {%- assign sort_label = 'products.facets.sort_price_ascending' | t -%}
+        {%- when 'price-descending' -%}
+          {%- assign sort_label = 'products.facets.sort_price_descending' | t -%}
+        {%- when 'created-ascending' -%}
+          {%- assign sort_label = 'products.facets.sort_created_ascending' | t -%}
+        {%- when 'created-descending' -%}
+          {%- assign sort_label = 'products.facets.sort_created_descending' | t -%}
+        {%- when 'relevance' -%}
+          {%- assign sort_label = 'products.facets.sort_relevance' | t -%}
+        {%- else -%}
+          {%- assign sort_label = option.name -%}
+      {%- endcase -%}
       <option
         value="{{ option.value | escape }}"
         {% if option.value == sort_by %}

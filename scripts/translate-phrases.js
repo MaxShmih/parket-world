@@ -6,6 +6,20 @@ const path = require('path');
 
 const root = path.join(__dirname, '..');
 
+/** Shopify locale JSON може мати блок-коментар на початку — JSON.parse його не приймає. */
+function readLocaleJson(filePath) {
+  const raw = fs.readFileSync(filePath, 'utf8');
+  const headerMatch = raw.match(/^(\/\*[\s\S]*?\*\/\s*)/);
+  const header = headerMatch ? headerMatch[1] : '';
+  const jsonText = header ? raw.slice(header.length) : raw;
+  return { header, data: JSON.parse(jsonText.trim()) };
+}
+
+function writeLocaleJson(filePath, header, data) {
+  const body = JSON.stringify(data, null, 2) + '\n';
+  fs.writeFileSync(filePath, header + body, 'utf8');
+}
+
 const PHRASES = [
   // Footer / newsletter
   ['Join Our Newsletter', 'Підпишіться на розсилку'],
@@ -135,7 +149,7 @@ for (const rel of FILES) {
   }
 }
 
-// Shopify sort options (колекції)
+// Shopify sort options (системні ключі + products.facets для | t у Liquid)
 const SORT_UA = {
   manual: 'Рекомендовано',
   best_selling: 'Найкращі продажі',
@@ -148,17 +162,51 @@ const SORT_UA = {
   relevance: 'Найрелевантніші',
 };
 
-for (const rel of ['locales/uk-UA.default.json', 'locales/uk-UA.json', 'locales/uk.json']) {
+const SORT_FACETS_UA = {
+  sort_manual: SORT_UA.manual,
+  sort_best_selling: SORT_UA.best_selling,
+  sort_title_ascending: SORT_UA.title_ascending,
+  sort_title_descending: SORT_UA.title_descending,
+  sort_price_ascending: SORT_UA.price_ascending,
+  sort_price_descending: SORT_UA.price_descending,
+  sort_created_ascending: SORT_UA.created_ascending,
+  sort_created_descending: SORT_UA.created_descending,
+  sort_relevance: SORT_UA.relevance,
+};
+
+const SORT_FACETS_EN = {
+  sort_manual: 'Featured',
+  sort_best_selling: 'Best selling',
+  sort_title_ascending: 'Alphabetically, A-Z',
+  sort_title_descending: 'Alphabetically, Z-A',
+  sort_price_ascending: 'Price, low to high',
+  sort_price_descending: 'Price, high to low',
+  sort_created_ascending: 'Date, old to new',
+  sort_created_descending: 'Date, new to old',
+  sort_relevance: 'Most relevant',
+};
+
+function patchSortLocales(rel, facetSortKeys) {
   const p = path.join(root, rel);
-  const data = JSON.parse(fs.readFileSync(p, 'utf8'));
+  if (!fs.existsSync(p)) return;
+  const { header, data } = readLocaleJson(p);
+  if (!data.products) data.products = {};
+  if (!data.products.facets) data.products.facets = {};
+  data.products.facets = { ...data.products.facets, ...facetSortKeys };
   if (!data.shopify) data.shopify = {};
   if (!data.shopify.collections) data.shopify.collections = {};
   data.shopify.collections.sorting = { ...data.shopify.collections.sorting, ...SORT_UA };
   if (!data.shopify.search) data.shopify.search = {};
-  data.shopify.search.sorting = { ...data.shopify.search.sorting, relevance: 'Найрелевантніші' };
-  fs.writeFileSync(p, JSON.stringify(data, null, 2) + '\n', 'utf8');
+  data.shopify.search.sorting = { ...data.shopify.search.sorting, relevance: SORT_UA.relevance };
+  writeLocaleJson(p, header, data);
   console.log('Patched sort keys in', rel);
 }
+
+for (const rel of ['locales/uk-UA.default.json', 'locales/uk-UA.json', 'locales/uk.json']) {
+  patchSortLocales(rel, SORT_FACETS_UA);
+}
+
+patchSortLocales('locales/en.default.json', SORT_FACETS_EN);
 
 // Schema: назви секцій у редакторі + дефолти
 const schemaPath = path.join(root, 'locales/uk-UA.schema.json');

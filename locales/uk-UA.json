@@ -301,7 +301,16 @@
         "other": "{{ count }} товарів"
       },
       "sort_by_label": "Сортувати за",
-      "to": "Кому"
+      "to": "Кому",
+      "sort_manual": "Рекомендовано",
+      "sort_best_selling": "Найкращі продажі",
+      "sort_title_ascending": "За назвою: А–Я",
+      "sort_title_descending": "За назвою: Я–А",
+      "sort_price_ascending": "Ціна: від низької",
+      "sort_price_descending": "Ціна: від високої",
+      "sort_created_ascending": "Дата: від старих",
+      "sort_created_descending": "Дата: від нових",
+      "sort_relevance": "Найрелевантніші"
     }
   },
   "collections": {

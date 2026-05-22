@@ -292,7 +292,16 @@
         "other": "{{ count }} products"
       },
       "sort_by_label": "Sort by",
-      "to": "To"
+      "to": "To",
+      "sort_manual": "Featured",
+      "sort_best_selling": "Best selling",
+      "sort_title_ascending": "Alphabetically, A-Z",
+      "sort_title_descending": "Alphabetically, Z-A",
+      "sort_price_ascending": "Price, low to high",
+      "sort_price_descending": "Price, high to low",
+      "sort_created_ascending": "Date, old to new",
+      "sort_created_descending": "Date, new to old",
+      "sort_relevance": "Most relevant"
     }
   },
   "collections": {
@@ -305,6 +314,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "404 Page not found",
+      "subtext": "The page you requested does not exist."
+    },
     "collections": {
       "title": "Collections"
     },
@@ -343,10 +356,6 @@
         "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
         "error_heading": "Please adjust the following:"
       }
-    },
-    "404": {
-      "title": "404 Page not found",
-      "subtext": "The page you requested does not exist."
     }
   },
   "sections": {
@@ -572,6 +581,26 @@
       "max_characters": "{{ max_chars }} characters max",
       "send_on": "YYYY-MM-DD",
       "send_on_label": "Send on (optional)"
+    }
+  },
+  "shopify": {
+    "collections": {
+      "sorting": {
+        "manual": "Рекомендовано",
+        "best_selling": "Найкращі продажі",
+        "title_ascending": "За назвою: А–Я",
+        "title_descending": "За назвою: Я–А",
+        "price_ascending": "Ціна: від низької",
+        "price_descending": "Ціна: від високої",
+        "created_ascending": "Дата: від старих",
+        "created_descending": "Дата: від нових",
+        "relevance": "Найрелевантніші"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Найрелевантніші"
+      }
     }
   }
 }
