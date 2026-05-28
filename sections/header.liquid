@@ -30,7 +30,7 @@
   assign store_address = section.settings.store_address
   assign store_address_url = section.settings.store_address_url
   assign store_phone = section.settings.store_phone
-  assign store_hours = section.settings.store_hours
+  assign store_hours = section.settings.store_hours | replace: 'Графік роботи', '' | strip
   assign show_store_contact = false
   if section.settings.show_store_contact
     if store_hours != blank or store_phone != blank
@@ -78,16 +78,19 @@
   #shopify-section-{{ section.id }} .header__contact {
     font-size: 1.2rem;
     line-height: 1.45;
-    gap: 0.2rem;
-    padding-inline-start: 2rem;
-    white-space: nowrap;
+    width: 100%;
+    min-width: 0;
+    padding-inline: 2.4rem 1.2rem;
+    gap: 2.4rem;
+    justify-content: space-around;
   }
-  #shopify-section-{{ section.id }} .header__contact-hours::first-line {
-    font-weight: 600;
+  #shopify-section-{{ section.id }} .header__contact-schedule {
+    white-space: nowrap;
   }
   #shopify-section-{{ section.id }} .header__contact-phone {
     font-weight: 600;
-    margin-block-start: 0.2rem;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 {% endstyle %}
 
@@ -212,14 +215,16 @@
     </div>
 
     {%- if show_store_contact -%}
-      <div class="header__contact hidden lg:flex flex-col justify-center text-subtext z-1">
+      <div class="header__contact hidden lg:flex items-center text-subtext z-1">
         {%- if store_hours != blank -%}
-          <div class="header__contact-hours">{{ store_hours | newline_to_br }}</div>
+          <div class="header__contact-schedule">{{ store_hours | newline_to_br }}</div>
         {%- endif -%}
         {%- if store_phone != blank -%}
-          <a href="tel:{{ store_phone | replace: ' ', '' | replace: '(', '' | replace: ')', '' | replace: '-', '' }}" class="header__contact-phone reversed-link">
-            {{- store_phone -}}
-          </a>
+          <div class="header__contact-phone-wrap">
+            <a href="tel:{{ store_phone | replace: ' ', '' | replace: '(', '' | replace: ')', '' | replace: '-', '' }}" class="header__contact-phone reversed-link">
+              {{- store_phone -}}
+            </a>
+          </div>
         {%- endif -%}
       </div>
     {%- endif -%}
@@ -502,7 +507,7 @@
       "type": "textarea",
       "id": "store_hours",
       "label": "Графік роботи",
-      "default": "Графік роботи\nПн.- Пт: 10:00 – 18:00\nСб: 10:00 – 15:00"
+      "default": "Пн.- Пт: 10:00 – 18:00\nСб: 10:00 – 15:00"
     },
     {
       "type": "text",
