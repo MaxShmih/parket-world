@@ -7113,7 +7113,7 @@ body:not(.header-pinned) .header-scrolled .header {
     --header-grid-template: "logo search icons" / auto minmax(0, 1fr) auto;
   }
   .header__top--logo-left.header__top--has-contact {
-    --header-grid-template: "logo search contact icons" / auto minmax(0, 1fr) auto auto;
+    --header-grid-template: "logo search contact icons" / auto minmax(0, 1fr) minmax(0, 1fr) auto;
   }
   .header__top--logo-left .header__search {
     padding-inline: 4.2rem;
@@ -7123,7 +7123,7 @@ body:not(.header-pinned) .header-scrolled .header {
     --search-form-width: 43rem;
   }
   .header__top--logo-center.header__top--has-contact {
-    --header-grid-template: "search logo contact icons" / 1fr auto auto auto;
+    --header-grid-template: "search logo contact icons" / 1fr auto minmax(0, 1fr) auto;
   }
   .header__top--logo-center .header__search {
     padding-inline-end: 4.2rem;
@@ -7133,7 +7133,7 @@ body:not(.header-pinned) .header-scrolled .header {
     --search-form-width: 70rem;
   }
   .header__top--logo-left-search-center.header__top--has-contact {
-    --header-grid-template: "logo search contact icons" / 1fr minmax(0, 1fr) auto auto;
+    --header-grid-template: "logo search contact icons" / 1fr minmax(0, 1fr) minmax(0, 1fr) auto;
   }
 }
 .dropdown,

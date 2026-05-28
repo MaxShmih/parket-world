@@ -1,1 +1,110 @@
-{"name":"t:sections.header.name","type":"header","sections":{"topbar_3YD96h":{"type":"topbar","blocks":{"link_list_En8dpz":{"type":"link_list","settings":{"menu":"main-menu","position":"left"}},"text_Ahn3nP":{"type":"text","settings":{"text":"✌🏼 Free Express Shipping on orders $500!","position":"center","highlight_text":"","highlight_text_style":"button","highlight_text_color":"","highlight_text_background_color":""}},"language_country_MyFf6D":{"type":"language_country","settings":{"show_language_selector":true,"show_country_selector":true,"position":"right"}},"social_links_BcFqP9":{"type":"social_links","settings":{"show_facebook":true,"show_instagram":true,"show_twitter":true,"show_tiktok":true,"show_pinterest":false,"show_snapchat":false,"show_tumblr":false,"show_youtube":false,"show_vimeo":false,"position":"right"}}},"block_order":["link_list_En8dpz","text_Ahn3nP","language_country_MyFf6D","social_links_BcFqP9"],"disabled":true,"custom_css":[],"settings":{"container":"fixed","color_scheme":"scheme-2","show_separator_line":false,"padding_top":12,"padding_bottom":12}},"header":{"type":"header","settings":{"container":"fixed","color_scheme":"scheme-1","menu":"navigation-menu","menu_mobile":"navigation-menu","header_layout":"logo-left","menu_trigger":"hover","sticky_header":"on-scroll-up","enable_collapse_on_scroll":true,"show_sperator_line":true,"customer_account_style":"icon-with-text","show_social_media_icons":true,"enable_language_selector":false,"enable_country_selector":true,"header_top_padding_top":20,"header_top_padding_bottom":20,"navigation_color_scheme":"","navigation_content_alignment":"start","navigation_padding_top":0,"navigation_padding_bottom":12}}},"order":["topbar_3YD96h","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "topbar_3YD96h": {
+      "type": "topbar",
+      "blocks": {
+        "link_list_En8dpz": {
+          "type": "link_list",
+          "settings": {
+            "menu": "main-menu",
+            "position": "left"
+          }
+        },
+        "text_Ahn3nP": {
+          "type": "text",
+          "settings": {
+            "text": "✌🏼 Free Express Shipping on orders $500!",
+            "position": "center",
+            "highlight_text": "",
+            "highlight_text_style": "button",
+            "highlight_text_color": "",
+            "highlight_text_background_color": ""
+          }
+        },
+        "language_country_MyFf6D": {
+          "type": "language_country",
+          "settings": {
+            "show_language_selector": true,
+            "show_country_selector": true,
+            "position": "right"
+          }
+        },
+        "social_links_BcFqP9": {
+          "type": "social_links",
+          "settings": {
+            "show_facebook": true,
+            "show_instagram": true,
+            "show_twitter": true,
+            "show_tiktok": true,
+            "show_pinterest": false,
+            "show_snapchat": false,
+            "show_tumblr": false,
+            "show_youtube": false,
+            "show_vimeo": false,
+            "position": "right"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_En8dpz",
+        "text_Ahn3nP",
+        "language_country_MyFf6D",
+        "social_links_BcFqP9"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-2",
+        "show_separator_line": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "menu": "navigation-menu",
+        "menu_mobile": "navigation-menu",
+        "header_layout": "logo-left",
+        "menu_trigger": "hover",
+        "sticky_header": "on-scroll-up",
+        "enable_collapse_on_scroll": true,
+        "show_sperator_line": true,
+        "show_store_address": true,
+        "store_address": "м.Тернопіль, вул. Олени Теліги, 2",
+        "store_address_url": "https://www.google.com/maps/place/%22%D0%A1%D0%92%D0%86%D0%A2+%D0%9F%D0%90%D0%A0%D0%9A%D0%95%D0%A2%D0%A3%22+%D0%BB%D0%B0%D0%BC%D1%96%D0%BD%D0%B0%D1%82,+%D0%B2%D1%96%D0%BD%D1%96%D0%BB,+%D0%BF%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BD%D0%B0+%D0%B4%D0%BE%D1%88%D0%BA%D0%B0/@49.5589789,25.5969469,21z/data=!4m6!3m5!1s0x473031497ea95857:0x98939942d3427493!8m2!3d49.5589623!4d25.5969603!16s%2Fg%2F11c1txt55n?authuser=0&entry=tts",
+        "show_store_contact": true,
+        "store_hours": "Пн.- Пт: 10:00 – 18:00\nСб: 10:00 – 15:00",
+        "store_phone": "+380676702755",
+        "customer_account_style": "icon-with-text",
+        "show_social_media_icons": true,
+        "enable_language_selector": false,
+        "enable_country_selector": true,
+        "header_top_padding_top": 20,
+        "header_top_padding_bottom": 20,
+        "navigation_color_scheme": "",
+        "navigation_content_alignment": "start",
+        "navigation_padding_top": 0,
+        "navigation_padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "topbar_3YD96h",
+    "header"
+  ]
+}
