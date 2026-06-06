@@ -146,6 +146,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Деталі товару",
             "heading_size": "h4",
@@ -159,6 +160,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Матеріали та догляд",
             "heading_size": "h4",
