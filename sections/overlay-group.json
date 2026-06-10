@@ -32,12 +32,6 @@
     "product-compare": {
       "type": "product-compare",
       "blocks": {
-        "info_BQEhkg": {
-          "type": "info",
-          "settings": {
-            "show_view_details_button": true
-          }
-        },
         "description_HnwTqC": {
           "type": "description",
           "settings": {
@@ -63,14 +57,12 @@
         }
       },
       "block_order": [
-        "info_BQEhkg",
         "description_HnwTqC",
         "price_BbVPd4",
         "vendor_DzTLqc",
         "type_AzgBQT",
         "variants_RYYmjz"
       ],
-      "disabled": true,
       "settings": {}
     },
     "quick-view": {
