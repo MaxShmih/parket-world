@@ -343,7 +343,7 @@
             "text": "<p>Безкоштовна доставка від 10 000 грн</p>",
             "text_size": "text-base",
             "button_label": "Деталі доставки",
-            "button_link": "",
+            "button_link": "shopify://policies/shipping-policy",
             "button_style": "btn--plain",
             "button_icon": "caret-right"
           }
