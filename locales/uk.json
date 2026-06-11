@@ -260,7 +260,7 @@
       "unavailable": "Недоступно",
       "sku": "Артикул",
       "barcode": "Штрихкод",
-      "vendor": "Продавець",
+      "vendor": "Виробник",
       "type": "Тип",
       "value_unavailable": "{{ option_value }} - Недоступно",
       "variant_sold_out_or_unavailable": "Варіант розпродано або недоступний",
