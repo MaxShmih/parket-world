@@ -84,6 +84,7 @@
         {%- endfor -%}
       </div>
     </div>
+    {% render 'product-logo-maker', product: product %}
     {%- if media_count > 1 -%}
       <div class="swiper-controls swiper-controls--nav-floating swiper-controls--grouped-mobile swiper-controls--pagination-fraction justify-center{% if mobile_thumbnails == 'show' %} hidden{% endif %}{% if enable_desktop_slider == false %} md:hidden{% else %} md:flex{% endif %}">
         <button

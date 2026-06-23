@@ -1,0 +1,17 @@
+{%- liquid
+  assign logo_maker_image = product.metafields.custom['logo-maker'].value
+-%}
+{%- if logo_maker_image != blank -%}
+  <div class="product__logo-maker" aria-hidden="true">
+    {{
+      logo_maker_image
+      | image_url: width: 240
+      | image_tag:
+        loading: 'lazy',
+        widths: '120, 160, 200, 240',
+        sizes: '120px',
+        class: 'product__logo-maker-image',
+        alt: ''
+    }}
+  </div>
+{%- endif -%}

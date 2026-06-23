@@ -41,6 +41,37 @@ product-info.use-color-scheme-in-container > .product {
 .product__media-item {
   width: 100%;
 }
+.product__logo-maker {
+  position: absolute;
+  top: 1.2rem;
+  inset-inline-end: 1.2rem;
+  z-index: 4;
+  max-width: 12rem;
+  padding: 0.6rem 0.8rem;
+  background: #fff;
+  border-radius: 0.4rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+}
+.product__logo-maker-image {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 4.8rem;
+  object-fit: contain;
+}
+@media (min-width: 768px) {
+  .product__logo-maker {
+    top: 2rem;
+    inset-inline-end: 2rem;
+    max-width: 14rem;
+    padding: 0.8rem 1rem;
+  }
+  .product__logo-maker-image {
+    max-height: 5.6rem;
+  }
+}
 .product__media-item:hover .product__media-icon {
   opacity: 1;
 }
